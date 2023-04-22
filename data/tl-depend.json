@@ -5489,7 +5489,6 @@
     "depend": [
       "accents",
       "amsmath",
-      "etex-pkg",
       "framed",
       "latex",
       "mhchem",
@@ -6100,18 +6099,15 @@
   {
     "name": "cleanthesis",
     "depend": [
-      "bera",
       "biblatex",
       "blindtext",
       "caption",
       "csquotes",
       "enumitem",
-      "fourier",
       "graphics",
       "hyperref",
       "koma-script",
       "latex",
-      "libertine",
       "listings",
       "lm",
       "microtype",
@@ -6422,7 +6418,6 @@
       "pdftexcmds",
       "pgfopts",
       "ragged2e",
-      "superiors",
       "tools",
       "translations",
       "trimspaces",
@@ -13270,7 +13265,6 @@
       "booktabs",
       "caption",
       "cleveref",
-      "cmap",
       "comment",
       "csquotes",
       "datetime2",
@@ -13943,7 +13937,6 @@
       "biblatex",
       "csquotes",
       "datetime2",
-      "dejavu",
       "embedfile",
       "enumitem",
       "environ",
@@ -15841,7 +15834,6 @@
     "name": "exam",
     "depend": [
       "graphics",
-      "hyperref",
       "latex"
     ],
     "tl_depend": []
@@ -15932,9 +15924,7 @@
   },
   {
     "name": "examplep",
-    "depend": [
-      "latex"
-    ],
+    "depend": [],
     "tl_depend": []
   },
   {
@@ -16582,14 +16572,11 @@
     "depend": [
       "adjustbox",
       "amsmath",
-      "arydshln",
       "babel",
       "bookmark",
       "booktabs",
       "caption",
-      "carlisle",
       "courier-scaled",
-      "dashrule",
       "enumitem",
       "eurosym",
       "fancyhdr",
@@ -16616,7 +16603,6 @@
       "tabulary",
       "tools",
       "url",
-      "wrapfig",
       "xcolor"
     ],
     "tl_depend": []
@@ -22778,7 +22764,6 @@
   {
     "name": "knitting",
     "depend": [
-      "changepage",
       "graphics"
     ],
     "tl_depend": []
@@ -24069,7 +24054,6 @@
       "latex",
       "libertine",
       "listings",
-      "lua-typo",
       "mathtools",
       "microtype",
       "ninecolors",
@@ -24452,11 +24436,9 @@
     "depend": [
       "amsfonts",
       "gb4e",
-      "linguex",
       "pbox",
       "relsize",
       "stmaryrd",
-      "tipa",
       "ulem",
       "was"
     ],
@@ -27630,7 +27612,6 @@
       "pgf",
       "randomlist",
       "tools",
-      "translations",
       "translator",
       "varwidth",
       "xkeyval",
@@ -28533,7 +28514,6 @@
   {
     "name": "newpx",
     "depend": [
-      "amscls",
       "amsmath",
       "carlisle",
       "etoolbox",
@@ -30824,10 +30804,8 @@
       "atveryend",
       "everyshi",
       "fp",
-      "geometry",
       "graphics",
       "pdftexcmds",
-      "textpos",
       "tools",
       "xcolor"
     ],
@@ -30986,14 +30964,12 @@
     "depend": [
       "atveryend",
       "fp",
-      "geometry",
       "graphics",
       "hyperref",
       "listings",
       "luatexbase",
       "pdftexcmds",
       "pgf",
-      "textpos",
       "tools"
     ],
     "tl_depend": [
@@ -33307,7 +33283,6 @@
       "booktabs",
       "caption",
       "eso-pic",
-      "eulervm",
       "everyshi",
       "fancyvrb",
       "footmisc",
@@ -34013,7 +33988,6 @@
       "ntheorem",
       "stix2-type1",
       "tabu",
-      "titlesec",
       "tools",
       "unicode-math",
       "xcolor",
@@ -34113,7 +34087,6 @@
   {
     "name": "rec-thy",
     "depend": [
-      "amsfonts",
       "amsmath",
       "bigfoot",
       "enumitem",
@@ -41167,7 +41140,6 @@
       "amsmath",
       "bookmark",
       "fancyhdr",
-      "geometry",
       "graphics",
       "hyperref",
       "latex",
