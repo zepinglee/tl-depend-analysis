@@ -505,6 +505,7 @@
     "name": "afthesis",
     "depend": [
       "caption",
+      "latex",
       "ulem"
     ],
     "tl_depend": []
@@ -4443,6 +4444,7 @@
       "fontspec",
       "iftex",
       "latex",
+      "mwcls",
       "polyglossia",
       "textcase",
       "ulem"
@@ -12647,6 +12649,7 @@
       "graphics",
       "hyperref",
       "lastpage",
+      "latex",
       "libertine",
       "needspace",
       "newenviron",
@@ -13891,6 +13894,7 @@
       "iftex",
       "kvoptions",
       "latex",
+      "memoir",
       "oberdiek",
       "refcount",
       "xifthen",
@@ -14852,6 +14856,7 @@
   {
     "name": "elteiktdk",
     "depend": [
+      "elteikthesis",
       "psnfss"
     ],
     "tl_depend": []
@@ -16267,6 +16272,7 @@
   {
     "name": "fancyslides",
     "depend": [
+      "beamer",
       "framed",
       "pgf"
     ],
@@ -18641,7 +18647,8 @@
     "name": "gradstudentresume",
     "depend": [
       "anysize",
-      "hyperref"
+      "hyperref",
+      "latex"
     ],
     "tl_depend": []
   },
@@ -26155,6 +26162,7 @@
     "name": "matc3mem",
     "depend": [
       "amscls",
+      "memoir",
       "shadethm",
       "xcolor"
     ],
@@ -26454,6 +26462,7 @@
       "hypdoc",
       "iftex",
       "kantlipsum",
+      "koma-script",
       "kvoptions",
       "l3kernel",
       "l3packages",
@@ -26525,6 +26534,7 @@
       "amsmath",
       "anysize",
       "background",
+      "beamer",
       "booktabs",
       "cancel",
       "graphics",
@@ -26623,6 +26633,7 @@
       "babel",
       "geometry",
       "jurabib",
+      "koma-script",
       "latex",
       "microtype",
       "ragged2e",
@@ -41121,6 +41132,7 @@
       "graphbox",
       "graphics",
       "iftex",
+      "koma-script",
       "l3kernel",
       "l3packages",
       "latex",
@@ -44110,6 +44122,7 @@
       "hyperref",
       "iftex",
       "latex",
+      "mwcls",
       "placeins",
       "polyglossia",
       "titlesec",
