@@ -25206,9 +25206,7 @@
   },
   {
     "name": "lua-uni-algos",
-    "depend": [
-      "luatodonotes"
-    ],
+    "depend": [],
     "tl_depend": []
   },
   {
@@ -25305,8 +25303,7 @@
   {
     "name": "luafindfont",
     "depend": [
-      "lualibs",
-      "xindex"
+      "lualibs"
     ],
     "tl_depend": [
       "luafindfont.ARCH"
@@ -25425,9 +25422,7 @@
   },
   {
     "name": "lualibs",
-    "depend": [
-      "context"
-    ],
+    "depend": [],
     "tl_depend": []
   },
   {
@@ -36657,7 +36652,6 @@
     "name": "simurgh",
     "depend": [
       "auxhook",
-      "context",
       "fontspec",
       "geometry",
       "graphics",
@@ -43570,7 +43564,6 @@
       "imakeidx",
       "latex",
       "lualibs",
-      "luatodonotes",
       "xkeyval"
     ],
     "tl_depend": [
