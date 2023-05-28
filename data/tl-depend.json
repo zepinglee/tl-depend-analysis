@@ -6935,6 +6935,7 @@
       "context-ruby",
       "context-simplefonts",
       "context-simpleslides",
+      "context-sudoku",
       "context-texlive",
       "context-title",
       "context-transliterator",
@@ -8536,6 +8537,7 @@
       "copyedit",
       "copyrightbox",
       "coseoul",
+      "counterz",
       "counttexruns",
       "courseoutline",
       "coursepaper",
@@ -9174,6 +9176,7 @@
       "moresize",
       "moreverb",
       "morewrites",
+      "movement-arrows",
       "movie15",
       "mparhack",
       "mpostinl",
@@ -11761,6 +11764,13 @@
     ]
   },
   {
+    "name": "context-sudoku",
+    "depend": [],
+    "tl_depend": [
+      "context"
+    ]
+  },
+  {
     "name": "context-texlive",
     "depend": [],
     "tl_depend": []
@@ -12011,6 +12021,14 @@
     "name": "coseoul",
     "depend": [
       "latex"
+    ],
+    "tl_depend": []
+  },
+  {
+    "name": "counterz",
+    "depend": [
+      "etoolbox",
+      "makecmds"
     ],
     "tl_depend": []
   },
@@ -14253,8 +14271,6 @@
       "amsfonts",
       "amsmath",
       "etoolbox",
-      "l3kernel",
-      "l3packages",
       "mathtools",
       "pgf",
       "pgfopts",
@@ -20357,31 +20373,37 @@
       "xcolor"
     ],
     "tl_depend": [
+      "anyfontsize",
       "biblatex",
-      "cjk",
+      "catchfile",
+      "changepage",
       "currfile",
       "datetime",
       "enumitem",
+      "environ",
       "fancyhdr",
+      "ffcode",
+      "filehook",
+      "fmtcount",
+      "fontsize",
       "footmisc",
       "geometry",
-      "graphics",
       "hyperref",
-      "l3packages",
       "lastpage",
       "libertine",
       "makecell",
       "microtype",
-      "minted",
+      "pagecolor",
       "paralist",
       "pgf",
+      "pgfopts",
+      "ragged2e",
       "setspace",
       "svg",
-      "tcolorbox",
       "textpos",
       "titling",
-      "tools",
-      "ulem",
+      "transparent",
+      "trimspaces",
       "wrapfig",
       "xcolor"
     ]
@@ -23595,7 +23617,9 @@
       "amsmath",
       "bigfoot",
       "etoolbox",
+      "graphics",
       "hyperref",
+      "l3experimental",
       "l3packages",
       "pdfmanagement-testphase",
       "tagpdf"
@@ -23791,7 +23815,6 @@
     "depend": [
       "doctools",
       "etoolbox",
-      "filecontents",
       "framed",
       "kvoptions",
       "listings",
@@ -24488,6 +24511,7 @@
     "depend": [
       "etoolbox",
       "finstrut",
+      "kvoptions",
       "ltabptch",
       "tools"
     ],
@@ -27734,6 +27758,15 @@
   {
     "name": "morisawa",
     "depend": [],
+    "tl_depend": []
+  },
+  {
+    "name": "movement-arrows",
+    "depend": [
+      "etoolbox",
+      "pgf",
+      "tools"
+    ],
     "tl_depend": []
   },
   {
@@ -32231,6 +32264,8 @@
   {
     "name": "proflycee",
     "depend": [
+      "amsfonts",
+      "cancel",
       "csvsimple",
       "fancyvrb",
       "fontawesome5",
@@ -32242,6 +32277,7 @@
       "listofitems",
       "mathtools",
       "minted",
+      "nicematrix",
       "oberdiek",
       "pgf",
       "piton",
@@ -44194,14 +44230,15 @@
       "microtype",
       "paralist",
       "pgf",
+      "pgfopts",
       "setspace",
       "soul",
+      "textpos",
       "titlesec",
       "ulem",
       "wrapfig",
       "xcolor",
-      "xifthen",
-      "xkeyval"
+      "xifthen"
     ],
     "tl_depend": [
       "anyfontsize",
