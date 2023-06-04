@@ -10180,6 +10180,7 @@
       "statmath",
       "steinmetz",
       "stmaryrd",
+      "string-diagrams",
       "structmech",
       "struktex",
       "substances",
@@ -10441,6 +10442,7 @@
       "pixelarttikz",
       "pmgraph",
       "postage",
+      "postit",
       "prerex",
       "productbox",
       "ptolemaicastronomy",
@@ -10509,6 +10511,7 @@
       "tikz-timing",
       "tikz-trackschematic",
       "tikz-truchet",
+      "tikz2d-fr",
       "tikz3d-fr",
       "tikzbricks",
       "tikzcodeblocks",
@@ -12100,8 +12103,7 @@
   {
     "name": "covington",
     "depend": [
-      "iftex",
-      "xkeyval"
+      "iftex"
     ],
     "tl_depend": []
   },
@@ -21844,7 +21846,9 @@
       "translations",
       "xcolor"
     ],
-    "tl_depend": []
+    "tl_depend": [
+      "siunitx"
+    ]
   },
   {
     "name": "iodhbwm",
@@ -31952,6 +31956,15 @@
     "tl_depend": []
   },
   {
+    "name": "postit",
+    "depend": [
+      "simplekv",
+      "tcolorbox",
+      "xstring"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "postnotes",
     "depend": [],
     "tl_depend": []
@@ -34582,7 +34595,6 @@
       "latex",
       "lineno",
       "natbib",
-      "revtex4",
       "textcase",
       "tools",
       "url"
@@ -37763,6 +37775,14 @@
     "tl_depend": []
   },
   {
+    "name": "string-diagrams",
+    "depend": [
+      "l3kernel",
+      "pgf"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "stringenc",
     "depend": [
       "infwarerr",
@@ -39998,6 +40018,17 @@
     "depend": [
       "latex",
       "pgf"
+    ],
+    "tl_depend": []
+  },
+  {
+    "name": "tikz2d-fr",
+    "depend": [
+      "listofitems",
+      "pgf",
+      "simplekv",
+      "xint",
+      "xstring"
     ],
     "tl_depend": []
   },
