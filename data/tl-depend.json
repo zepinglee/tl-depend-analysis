@@ -2995,7 +2995,7 @@
       "pgfornament-han",
       "pgfplots",
       "physics",
-      "psnfss",
+      "stix",
       "tabularray",
       "tcolorbox",
       "thmtools",
@@ -6995,7 +6995,6 @@
       "context-handlecsv",
       "context-layout",
       "context-letter",
-      "context-lettrine",
       "context-mathsets",
       "context-notes-zh-cn",
       "context-pocketdiary",
@@ -11008,6 +11007,7 @@
       "matc3mem",
       "mcmthesis",
       "mentis",
+      "mitthesis",
       "mlacls",
       "mluexercise",
       "mnras",
@@ -11554,8 +11554,7 @@
     "name": "concmath-otf",
     "depend": [
       "iftex",
-      "unicode-math",
-      "xkeyval"
+      "unicode-math"
     ],
     "tl_depend": []
   },
@@ -11781,13 +11780,6 @@
   },
   {
     "name": "context-letter",
-    "depend": [],
-    "tl_depend": [
-      "context"
-    ]
-  },
-  {
-    "name": "context-lettrine",
     "depend": [],
     "tl_depend": [
       "context"
@@ -12179,7 +12171,8 @@
   {
     "name": "covington",
     "depend": [
-      "iftex"
+      "iftex",
+      "varwidth"
     ],
     "tl_depend": []
   },
@@ -15584,8 +15577,7 @@
       "fourier",
       "iftex",
       "realscripts",
-      "unicode-math",
-      "xkeyval"
+      "unicode-math"
     ],
     "tl_depend": []
   },
@@ -15863,8 +15855,7 @@
     "name": "euler-math",
     "depend": [
       "iftex",
-      "unicode-math",
-      "xkeyval"
+      "unicode-math"
     ],
     "tl_depend": []
   },
@@ -27472,6 +27463,34 @@
     "tl_depend": []
   },
   {
+    "name": "mitthesis",
+    "depend": [
+      "caption",
+      "doi",
+      "etoolbox",
+      "fira",
+      "geometry",
+      "graphics",
+      "hyperref",
+      "hyperxmp",
+      "iftex",
+      "inconsolata",
+      "kvoptions",
+      "l3packages",
+      "latex",
+      "libertine",
+      "lineno",
+      "mathtools",
+      "newtx",
+      "newtxsf",
+      "titlesec",
+      "tools",
+      "unicode-math",
+      "xcolor"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "mkgrkindex",
     "depend": [],
     "tl_depend": [
@@ -32536,6 +32555,7 @@
     "name": "prooftrees",
     "depend": [
       "amsfonts",
+      "amsmath",
       "etoolbox",
       "forest",
       "svn-prov"
@@ -35059,7 +35079,6 @@
   {
     "name": "runcode",
     "depend": [
-      "filecontents",
       "fvextra",
       "l3packages",
       "latex",
@@ -43469,8 +43488,7 @@
     "depend": [
       "iftex",
       "realscripts",
-      "unicode-math",
-      "xkeyval"
+      "unicode-math"
     ],
     "tl_depend": []
   },
