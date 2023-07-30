@@ -137,7 +137,9 @@
   {
     "name": "abntexto",
     "depend": [
-      "graphics"
+      "geometry",
+      "graphics",
+      "latex"
     ],
     "tl_depend": []
   },
@@ -8706,6 +8708,7 @@
       "debate",
       "decimal",
       "decorule",
+      "defoldfonts",
       "delimtxt",
       "democodetools",
       "denisbdoc",
@@ -10180,6 +10183,7 @@
       "lpform",
       "lplfitch",
       "lstbayes",
+      "luanumint",
       "mathcommand",
       "mathcomp",
       "mathfixs",
@@ -13343,6 +13347,11 @@
       "graphics",
       "latex"
     ],
+    "tl_depend": []
+  },
+  {
+    "name": "defoldfonts",
+    "depend": [],
     "tl_depend": []
   },
   {
@@ -16626,6 +16635,7 @@
   {
     "name": "fcolumn",
     "depend": [
+      "graphics",
       "tools"
     ],
     "tl_depend": []
@@ -25702,6 +25712,15 @@
     "tl_depend": []
   },
   {
+    "name": "luanumint",
+    "depend": [
+      "breqn",
+      "luacode",
+      "xkeyval"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "luaoptions",
     "depend": [
       "luaotfload",
@@ -25933,9 +25952,9 @@
       "colortbl",
       "l3packages",
       "luacode",
+      "luakeys",
       "makecell",
       "multirow",
-      "penlight",
       "tools",
       "xcolor"
     ],
@@ -31021,10 +31040,7 @@
   },
   {
     "name": "penlight",
-    "depend": [
-      "luacode",
-      "luakeys"
-    ],
+    "depend": [],
     "tl_depend": []
   },
   {
@@ -39975,12 +39991,17 @@
       "amsfonts",
       "amsmath",
       "enumitem",
+      "expkv-bundle",
       "fontawesome",
+      "fontspec",
       "hologo",
       "hyperref",
+      "minted",
       "paracol",
       "setspace",
       "tabularray",
+      "tcolorbox",
+      "unicode-math",
       "xcolor"
     ],
     "tl_depend": []
@@ -44440,9 +44461,7 @@
       "etoolbox",
       "lua-tinyyaml",
       "luacode",
-      "luakeys",
-      "penlight",
-      "tools"
+      "luakeys"
     ],
     "tl_depend": []
   },
