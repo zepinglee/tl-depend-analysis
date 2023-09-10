@@ -1424,6 +1424,16 @@
     "tl_depend": []
   },
   {
+    "name": "arsenal",
+    "depend": [
+      "fontspec",
+      "iwonamath",
+      "kpfonts-otf",
+      "l3packages"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "articleingud",
     "depend": [
       "latex"
@@ -6034,9 +6044,9 @@
   {
     "name": "citation-style-language",
     "depend": [
-      "filehook",
       "l3kernel",
       "l3packages",
+      "lua-tinyyaml",
       "lua-uca",
       "lua-uni-algos",
       "lualibs",
@@ -7068,6 +7078,7 @@
       "archivo",
       "arev",
       "arimo",
+      "arsenal",
       "arvo",
       "asana-math",
       "asapsym",
@@ -7637,6 +7648,7 @@
       "lshort-persian",
       "luabidi",
       "na-box",
+      "parsinevis",
       "persian-bib",
       "quran",
       "sexam",
@@ -8671,6 +8683,7 @@
       "cuisine",
       "currency",
       "currfile",
+      "curriculum-vitae",
       "currvita",
       "cutwin",
       "cv",
@@ -9539,6 +9552,7 @@
       "rjlparshap",
       "rlepsf",
       "rmpage",
+      "robust-externalize",
       "robustcommand",
       "robustindex",
       "romanbar",
@@ -9797,6 +9811,7 @@
       "unitconv",
       "units",
       "unravel",
+      "updatemarks",
       "upmethodology",
       "upquote",
       "uri",
@@ -10179,6 +10194,7 @@
       "extpfeil",
       "faktor",
       "fascicules",
+      "fitch",
       "fixdif",
       "fixmath",
       "fnspe",
@@ -12786,6 +12802,14 @@
     "depend": [
       "filehook",
       "kvoptions"
+    ],
+    "tl_depend": []
+  },
+  {
+    "name": "curriculum-vitae",
+    "depend": [
+      "latex",
+      "titlesec"
     ],
     "tl_depend": []
   },
@@ -17101,6 +17125,11 @@
     "depend": [
       "xkeyval"
     ],
+    "tl_depend": []
+  },
+  {
+    "name": "fitch",
+    "depend": [],
     "tl_depend": []
   },
   {
@@ -27678,21 +27707,16 @@
       "caption",
       "doi",
       "etoolbox",
-      "fira",
       "geometry",
       "graphics",
       "hyperref",
       "hyperxmp",
       "iftex",
-      "inconsolata",
       "kvoptions",
       "l3packages",
       "latex",
-      "libertine",
       "lineno",
       "mathtools",
-      "newtx",
-      "newtxsf",
       "titlesec",
       "tools",
       "unicode-math",
@@ -28980,6 +29004,7 @@
   {
     "name": "newpx",
     "depend": [
+      "amscls",
       "amsmath",
       "carlisle",
       "etoolbox",
@@ -30597,6 +30622,11 @@
   },
   {
     "name": "parselines",
+    "depend": [],
+    "tl_depend": []
+  },
+  {
+    "name": "parsinevis",
     "depend": [],
     "tl_depend": []
   },
@@ -32653,10 +32683,12 @@
     "depend": [
       "amsfonts",
       "cancel",
+      "esvect",
       "fancyvrb",
       "fontawesome5",
       "hologo",
       "iftex",
+      "interval",
       "latex",
       "listofitems",
       "mathtools",
@@ -32672,6 +32704,7 @@
       "tabularray",
       "tcolorbox",
       "tkz-tab",
+      "tools",
       "units",
       "xcolor",
       "xint",
@@ -35147,6 +35180,16 @@
       "latex",
       "mweights",
       "xkeyval"
+    ],
+    "tl_depend": []
+  },
+  {
+    "name": "robust-externalize",
+    "depend": [
+      "graphics",
+      "pgf",
+      "tools",
+      "xsim"
     ],
     "tl_depend": []
   },
@@ -42717,6 +42760,15 @@
   {
     "name": "upca",
     "depend": [],
+    "tl_depend": []
+  },
+  {
+    "name": "updatemarks",
+    "depend": [
+      "etoolbox",
+      "l3kernel",
+      "l3packages"
+    ],
     "tl_depend": []
   },
   {
