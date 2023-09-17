@@ -6975,6 +6975,7 @@
       "pkfix-helper",
       "purifyeps",
       "pythontex",
+      "runtexshebang",
       "seetexk",
       "spix",
       "srcredact",
@@ -7252,6 +7253,7 @@
       "ifsym",
       "imfellenglish",
       "inconsolata",
+      "inconsolata-nerd-font",
       "initials",
       "inriafonts",
       "inter",
@@ -7644,10 +7646,12 @@
       "hyphen-arabic",
       "hyphen-farsi",
       "imsproc",
+      "khatalmaqala",
       "kurdishlipsum",
       "lshort-persian",
       "luabidi",
       "na-box",
+      "parsimatn",
       "parsinevis",
       "persian-bib",
       "quran",
@@ -10561,6 +10565,7 @@
       "nndraw",
       "numericplots",
       "outilsgeomtikz",
+      "papiergurvan",
       "pb-diagram",
       "petri-nets",
       "pgf",
@@ -10684,6 +10689,7 @@
       "tipfr",
       "tkz-base",
       "tkz-berge",
+      "tkz-bernoulli",
       "tkz-doc",
       "tkz-euclide",
       "tkz-fct",
@@ -11185,6 +11191,7 @@
       "ucalgmthesis",
       "ucbthesis",
       "ucdavisthesis",
+      "ucph-revy",
       "ucsmonograph",
       "ucthesis",
       "udes-genie-these",
@@ -17100,7 +17107,9 @@
       "xfakebold",
       "xkeyval"
     ],
-    "tl_depend": []
+    "tl_depend": [
+      "firamath"
+    ]
   },
   {
     "name": "first-latex-doc",
@@ -21871,6 +21880,15 @@
     "tl_depend": []
   },
   {
+    "name": "inconsolata-nerd-font",
+    "depend": [
+      "fontspec",
+      "l3kernel",
+      "l3packages"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "index",
     "depend": [],
     "tl_depend": []
@@ -23125,6 +23143,11 @@
     "tl_depend": []
   },
   {
+    "name": "khatalmaqala",
+    "depend": [],
+    "tl_depend": []
+  },
+  {
     "name": "kinematikz",
     "depend": [
       "graphics",
@@ -23936,7 +23959,6 @@
       "bigfoot",
       "etoolbox",
       "graphics",
-      "hyperref",
       "l3experimental",
       "l3packages",
       "latex-lab",
@@ -26695,6 +26717,7 @@
   {
     "name": "mathfont",
     "depend": [
+      "fontspec",
       "luaotfload"
     ],
     "tl_depend": []
@@ -27640,7 +27663,6 @@
     "tl_depend": [
       "catchfile",
       "etoolbox",
-      "fancyvrb",
       "float",
       "framed",
       "fvextra",
@@ -27648,9 +27670,9 @@
       "ifplatform",
       "kvoptions",
       "lineno",
+      "newfloat",
       "pdftexcmds",
       "tools",
-      "upquote",
       "xcolor",
       "xstring"
     ]
@@ -28466,7 +28488,8 @@
   {
     "name": "musicography",
     "depend": [
-      "l3packages",
+      "graphics",
+      "setspace",
       "stackengine"
     ],
     "tl_depend": []
@@ -28990,14 +29013,8 @@
   {
     "name": "newpax",
     "depend": [
-      "auxhook",
       "etoolbox",
-      "graphics",
-      "kvoptions",
-      "kvsetkeys",
-      "l3packages",
-      "ltxcmds",
-      "pdfmanagement-testphase"
+      "graphics"
     ],
     "tl_depend": []
   },
@@ -30560,6 +30577,16 @@
     "tl_depend": []
   },
   {
+    "name": "papiergurvan",
+    "depend": [
+      "pgf",
+      "setspace",
+      "simplekv",
+      "xstring"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "paracol",
     "depend": [],
     "tl_depend": []
@@ -30622,6 +30649,11 @@
   },
   {
     "name": "parselines",
+    "depend": [],
+    "tl_depend": []
+  },
+  {
+    "name": "parsimatn",
     "depend": [],
     "tl_depend": []
   },
@@ -35405,6 +35437,8 @@
   {
     "name": "runcode",
     "depend": [
+      "etoolbox",
+      "forloop",
       "fvextra",
       "l3packages",
       "latex",
@@ -35418,6 +35452,13 @@
       "xstring"
     ],
     "tl_depend": []
+  },
+  {
+    "name": "runtexshebang",
+    "depend": [],
+    "tl_depend": [
+      "runtexshebang.ARCH"
+    ]
   },
   {
     "name": "russ",
@@ -36411,13 +36452,15 @@
   {
     "name": "se2thesis",
     "depend": [
-      "anonymouspro",
       "biblatex",
       "booktabs",
       "cleveref",
       "csquotes",
       "fontspec",
+      "fvextra",
       "graphics",
+      "inconsolata",
+      "inconsolata-nerd-font",
       "koma-script",
       "l3kernel",
       "l3packages",
@@ -40909,6 +40952,16 @@
     "tl_depend": []
   },
   {
+    "name": "tkz-bernoulli",
+    "depend": [
+      "pgf",
+      "simplekv",
+      "xint",
+      "xstring"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "tkz-doc",
     "depend": [],
     "tl_depend": []
@@ -41899,6 +41952,17 @@
     "name": "ucharclasses",
     "depend": [
       "iftex"
+    ],
+    "tl_depend": []
+  },
+  {
+    "name": "ucph-revy",
+    "depend": [
+      "latex",
+      "pgf",
+      "refcount",
+      "varwidth",
+      "xstring"
     ],
     "tl_depend": []
   },
@@ -45109,7 +45173,6 @@
     "name": "zref",
     "depend": [
       "atbegshi",
-      "atveryend",
       "auxhook",
       "etexcmds",
       "gettitlestring",
