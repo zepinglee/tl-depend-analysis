@@ -7038,6 +7038,7 @@
       "context-notes-zh-cn",
       "context-pocketdiary",
       "context-simpleslides",
+      "context-squares",
       "context-sudoku",
       "context-texlive",
       "context-transliterator",
@@ -11787,6 +11788,13 @@
   },
   {
     "name": "context-simpleslides",
+    "depend": [],
+    "tl_depend": [
+      "context"
+    ]
+  },
+  {
+    "name": "context-squares",
     "depend": [],
     "tl_depend": [
       "context"
@@ -19654,12 +19662,11 @@
     "depend": [
       "amsmath",
       "babel",
-      "cite",
+      "csquotes",
       "enumitem",
       "graphics",
       "latex",
       "memoir",
-      "natbib",
       "numprint",
       "oberdiek",
       "tocvsec2",
@@ -32602,7 +32609,6 @@
       "multirow",
       "nicematrix",
       "pgf",
-      "printlen",
       "psnfss",
       "simplekv",
       "siunitx",
@@ -42303,13 +42309,13 @@
       "eso-pic",
       "graphics",
       "jknapltx",
+      "koma-script",
       "latex",
       "listings",
       "mathtools",
       "mdframed",
       "microtype",
       "multirow",
-      "pgf",
       "psnfss",
       "stix2-type1",
       "tools",
