@@ -469,7 +469,8 @@
   {
     "name": "advice",
     "depend": [
-      "collargs"
+      "collargs",
+      "l3packages"
     ],
     "tl_depend": []
   },
@@ -1574,6 +1575,7 @@
   {
     "name": "asmejour",
     "depend": [
+      "asmeconf",
       "babel",
       "bookmark",
       "booktabs",
@@ -1583,6 +1585,7 @@
       "etoolbox",
       "extsizes",
       "fancyhdr",
+      "fontspec",
       "geometry",
       "graphics",
       "hologo",
@@ -1600,7 +1603,6 @@
       "metalogo",
       "natbib",
       "newtx",
-      "pdfmanagement-testphase",
       "sttools",
       "titlesec",
       "tools",
@@ -2769,6 +2771,7 @@
       "parskip",
       "pgf",
       "pgfplots",
+      "tcolorbox",
       "tools",
       "ulem"
     ],
@@ -5017,6 +5020,11 @@
       "xifthen",
       "xkeyval"
     ],
+    "tl_depend": []
+  },
+  {
+    "name": "calcfrac",
+    "depend": [],
     "tl_depend": []
   },
   {
@@ -8683,6 +8691,7 @@
       "currfile",
       "curriculum-vitae",
       "currvita",
+      "customenvs",
       "cutwin",
       "cv",
       "cv4tw",
@@ -9120,6 +9129,7 @@
       "isonums",
       "isopt",
       "isorot",
+      "isosafety",
       "isotope",
       "issuulinks",
       "iwhdp",
@@ -10691,6 +10701,7 @@
       "tkz-berge",
       "tkz-bernoulli",
       "tkz-doc",
+      "tkz-elements",
       "tkz-euclide",
       "tkz-fct",
       "tkz-graph",
@@ -10727,6 +10738,7 @@
       "bitelist",
       "borceux",
       "c-pascal",
+      "calcfrac",
       "catcodes",
       "chronosys",
       "collargs",
@@ -12739,6 +12751,22 @@
     "depend": [
       "etoolbox",
       "pgf"
+    ],
+    "tl_depend": []
+  },
+  {
+    "name": "customenvs",
+    "depend": [
+      "enumitem",
+      "fontawesome5",
+      "listofitems",
+      "randomlist",
+      "simplekv",
+      "tabularray",
+      "tools",
+      "xcolor",
+      "xint",
+      "xstring"
     ],
     "tl_depend": []
   },
@@ -22187,6 +22215,14 @@
     "tl_depend": []
   },
   {
+    "name": "isosafety",
+    "depend": [
+      "graphics",
+      "xcolor"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "isotope",
     "depend": [],
     "tl_depend": []
@@ -27458,6 +27494,7 @@
   {
     "name": "minim-mp",
     "depend": [
+      "environ",
       "minim"
     ],
     "tl_depend": []
@@ -28945,7 +28982,9 @@
       "realscripts",
       "trimspaces",
       "unicode-math",
+      "xcolor",
       "xkeyval",
+      "xpatch",
       "xstring"
     ],
     "tl_depend": []
@@ -30984,6 +31023,8 @@
       "hyperxmp",
       "iftex",
       "kvoptions",
+      "pdftexcmds",
+      "stringenc",
       "xstring"
     ],
     "tl_depend": []
@@ -40896,7 +40937,26 @@
   },
   {
     "name": "tkz-doc",
-    "depend": [],
+    "depend": [
+      "booktabs",
+      "cellspace",
+      "datetime",
+      "eso-pic",
+      "footmisc",
+      "framed",
+      "koma-script",
+      "pgf",
+      "ragged2e",
+      "tools"
+    ],
+    "tl_depend": []
+  },
+  {
+    "name": "tkz-elements",
+    "depend": [
+      "filecontents",
+      "luacode"
+    ],
     "tl_depend": []
   },
   {
