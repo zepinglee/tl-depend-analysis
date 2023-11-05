@@ -1950,6 +1950,11 @@
     ]
   },
   {
+    "name": "autotype",
+    "depend": [],
+    "tl_depend": []
+  },
+  {
     "name": "auxhook",
     "depend": [],
     "tl_depend": []
@@ -8017,6 +8022,7 @@
     "depend": [],
     "tl_depend": [
       "apalike-german",
+      "autotype",
       "babel-german",
       "bibleref-german",
       "booktabs-de",
@@ -8265,6 +8271,7 @@
       "ntheorem-vn",
       "padauk",
       "quran-bn",
+      "quran-id",
       "quran-ur",
       "sanskrit",
       "sanskrit-t1",
@@ -10500,6 +10507,7 @@
       "circularglyphs",
       "coffeestains",
       "collection-basic",
+      "coloredbelts",
       "combinedgraphics",
       "curve",
       "curve2e",
@@ -11345,6 +11353,16 @@
     "depend": [
       "graphics",
       "latex"
+    ],
+    "tl_depend": []
+  },
+  {
+    "name": "coloredbelts",
+    "depend": [
+      "graphics",
+      "simplekv",
+      "tools",
+      "xstring"
     ],
     "tl_depend": []
   },
@@ -23835,7 +23853,9 @@
   },
   {
     "name": "latex-firstaid-dev",
-    "depend": [],
+    "depend": [
+      "firstaid"
+    ],
     "tl_depend": []
   },
   {
@@ -23877,11 +23897,11 @@
       "bigfoot",
       "etoolbox",
       "graphics",
-      "hyperref",
       "l3experimental",
       "l3packages",
       "pdfmanagement-testphase",
-      "tagpdf"
+      "tagpdf",
+      "tools"
     ],
     "tl_depend": []
   },
@@ -23896,7 +23916,8 @@
       "l3packages",
       "latex-lab",
       "pdfmanagement-testphase",
-      "tagpdf"
+      "tagpdf",
+      "tools"
     ],
     "tl_depend": []
   },
@@ -29014,9 +29035,10 @@
       "latex",
       "mweights",
       "oberdiek",
-      "realscripts",
       "unicode-math",
+      "xcolor",
       "xkeyval",
+      "xpatch",
       "xstring"
     ],
     "tl_depend": [
@@ -31454,6 +31476,7 @@
   {
     "name": "pgfornament-han",
     "depend": [
+      "bigfoot",
       "needspace",
       "pgf",
       "pgfornament",
@@ -34437,6 +34460,15 @@
   },
   {
     "name": "quran-de",
+    "depend": [
+      "quran",
+      "xkeyval",
+      "xstring"
+    ],
+    "tl_depend": []
+  },
+  {
+    "name": "quran-id",
     "depend": [
       "quran",
       "xkeyval",
@@ -41617,6 +41649,7 @@
   {
     "name": "tugboat",
     "depend": [
+      "gettitlestring",
       "latex",
       "mflogo"
     ],
