@@ -3242,7 +3242,34 @@
       "xcolor",
       "zref"
     ],
-    "tl_depend": []
+    "tl_depend": [
+      "adjustbox",
+      "amsfonts",
+      "amsmath",
+      "anyfontsize",
+      "beamer",
+      "fontawesome",
+      "fontspec",
+      "geometry",
+      "graphics",
+      "handoutwithnotes",
+      "hyperref",
+      "iftex",
+      "koma-script",
+      "l3kernel",
+      "l3packages",
+      "listings",
+      "nunito",
+      "pgf",
+      "qrcode",
+      "sourceserifpro",
+      "tcolorbox",
+      "tools",
+      "translations",
+      "url",
+      "xcolor",
+      "zref"
+    ]
   },
   {
     "name": "bgteubner",
@@ -3868,7 +3895,9 @@
   {
     "name": "bibtexperllibs",
     "depend": [],
-    "tl_depend": []
+    "tl_depend": [
+      "bibtexperllibs.ARCH"
+    ]
   },
   {
     "name": "bibtexu",
@@ -7284,7 +7313,6 @@
       "jablantile",
       "jamtimes",
       "josefin",
-      "junicode",
       "kixfont",
       "kpfonts",
       "kpfonts-otf",
@@ -9236,6 +9264,7 @@
       "listlbls",
       "listliketab",
       "listofsymbols",
+      "litesolution",
       "litetable",
       "lkproof",
       "lmake",
@@ -9667,6 +9696,7 @@
       "sidenotesplus",
       "silence",
       "sillypage",
+      "sim-os-menus",
       "simplecd",
       "simplecv",
       "simpleinvoice",
@@ -22804,16 +22834,6 @@
     "tl_depend": []
   },
   {
-    "name": "junicode",
-    "depend": [
-      "fontaxes",
-      "latex",
-      "mweights",
-      "xkeyval"
-    ],
-    "tl_depend": []
-  },
-  {
     "name": "jupynotex",
     "depend": [
       "tcolorbox"
@@ -25006,6 +25026,56 @@
       "latex",
       "nomencl",
       "tools"
+    ],
+    "tl_depend": []
+  },
+  {
+    "name": "litesolution",
+    "depend": [
+      "appendix",
+      "bbm-macros",
+      "booktabs",
+      "circuitikz",
+      "comment",
+      "csquotes",
+      "ctex",
+      "derivative",
+      "dirtree",
+      "dutchcal",
+      "enumitem",
+      "esint",
+      "esvect",
+      "etoolbox",
+      "extarrows",
+      "fancyhdr",
+      "fancyvrb",
+      "fixdif",
+      "fontawesome5",
+      "fontspec",
+      "geometry",
+      "graphics",
+      "hyperref",
+      "jknapltx",
+      "kvoptions",
+      "latex",
+      "listings",
+      "multirow",
+      "paracol",
+      "pdfpages",
+      "pgf",
+      "pgfplots",
+      "physics2",
+      "qrcode",
+      "setspace",
+      "silence",
+      "tasks",
+      "tcolorbox",
+      "titlesec",
+      "tools",
+      "ulem",
+      "wallpaper",
+      "wrapstuff",
+      "xcolor"
     ],
     "tl_depend": []
   },
@@ -29561,7 +29631,6 @@
       "graphics",
       "hyperref",
       "kvoptions",
-      "l3packages",
       "standalone"
     ],
     "tl_depend": []
@@ -37259,6 +37328,22 @@
     "tl_depend": []
   },
   {
+    "name": "sim-os-menus",
+    "depend": [
+      "fontawesome5",
+      "listofitems",
+      "oberdiek",
+      "pgf",
+      "simplekv",
+      "tabularray",
+      "tcolorbox",
+      "tools",
+      "xint",
+      "xstring"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "simple-resume-cv",
     "depend": [
       "datetime2",
@@ -40113,7 +40198,8 @@
   {
     "name": "thermodynamics",
     "depend": [
-      "amsmath"
+      "amsmath",
+      "l3kernel"
     ],
     "tl_depend": []
   },
@@ -42518,18 +42604,21 @@
       "amsfonts",
       "amsmath",
       "caption",
+      "cleveref",
       "eso-pic",
+      "fvextra",
       "graphics",
+      "inconsolata",
       "jknapltx",
       "koma-script",
-      "latex",
       "listings",
       "mathtools",
       "mdframed",
       "microtype",
       "multirow",
+      "newtx",
       "psnfss",
-      "stix2-type1",
+      "stickstoo",
       "subfig",
       "tools",
       "was",
@@ -43938,6 +44027,7 @@
     "name": "worldflags",
     "depend": [
       "etex-pkg",
+      "graphics",
       "latex",
       "pgf",
       "xcolor",
@@ -43974,6 +44064,7 @@
     "name": "writeongrid",
     "depend": [
       "pgf",
+      "setspace",
       "simplekv",
       "xstring"
     ],
