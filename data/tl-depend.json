@@ -7678,6 +7678,7 @@
       "sudoku",
       "sudokubundle",
       "tangramtikz",
+      "thematicpuzzle",
       "trivialpursuit",
       "wargame",
       "wordle",
@@ -9691,6 +9692,7 @@
       "repltext",
       "rescansync",
       "resmes",
+      "responsive",
       "returntogrid",
       "rgltxdoc",
       "rjlparshap",
@@ -17218,7 +17220,9 @@
   },
   {
     "name": "fitch",
-    "depend": [],
+    "depend": [
+      "kvoptions"
+    ],
     "tl_depend": []
   },
   {
@@ -17682,8 +17686,8 @@
       "erewhon-math",
       "fontspec",
       "iftex",
-      "latex",
       "libertinus-otf",
+      "oberdiek",
       "ucharclasses",
       "unicode-math",
       "xcharter-math"
@@ -27910,6 +27914,7 @@
     "name": "mismath",
     "depend": [
       "amsmath",
+      "decimalcomma",
       "esvect",
       "ibrackets",
       "iftex",
@@ -29177,9 +29182,7 @@
   },
   {
     "name": "newcomputermodern",
-    "depend": [
-      "fontsetup"
-    ],
+    "depend": [],
     "tl_depend": []
   },
   {
@@ -35314,6 +35317,15 @@
     "tl_depend": []
   },
   {
+    "name": "responsive",
+    "depend": [
+      "kvoptions",
+      "l3kernel",
+      "l3packages"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "rest-api",
     "depend": [
       "colortbl",
@@ -40329,6 +40341,17 @@
     "tl_depend": []
   },
   {
+    "name": "thematicpuzzle",
+    "depend": [
+      "fontawesome5",
+      "listofitems",
+      "pgf",
+      "simplekv",
+      "xstring"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "theoremref",
     "depend": [],
     "tl_depend": []
@@ -42782,9 +42805,9 @@
       "microtype",
       "multirow",
       "newtx",
-      "psnfss",
       "stickstoo",
       "subfig",
+      "tex-gyre",
       "titlesec",
       "tools",
       "was",
