@@ -1582,6 +1582,7 @@
       "etoolbox",
       "fancyhdr",
       "fontspec",
+      "footmisc",
       "geometry",
       "graphics",
       "hologo",
@@ -1602,7 +1603,6 @@
       "newtx",
       "oberdiek",
       "sttools",
-      "superiors",
       "textcase",
       "titlesec",
       "tools",
@@ -2963,6 +2963,7 @@
   {
     "name": "beamerthemeamurmaple",
     "depend": [
+      "fontawesome5",
       "iftex",
       "l3kernel",
       "l3packages",
@@ -7928,6 +7929,7 @@
       "lshort-mongol",
       "lshort-russian",
       "lshort-ukr",
+      "mnhyphn",
       "mongolian-babel",
       "montex",
       "mpman-ru",
@@ -9003,6 +9005,7 @@
       "embedfile",
       "embrac",
       "emo",
+      "emotion",
       "emptypage",
       "emulateapj",
       "endfloat",
@@ -11225,6 +11228,7 @@
       "cmpj",
       "collection-latex",
       "confproc",
+      "contract",
       "cquthesis",
       "dccpaper",
       "dithesis",
@@ -11413,6 +11417,7 @@
       "ucph-revy",
       "ucsmonograph",
       "ucthesis",
+      "udepcolor",
       "udes-genie-these",
       "uestcthesis",
       "ufrgscca",
@@ -12106,6 +12111,13 @@
       "titlesec",
       "tocloft",
       "tools"
+    ],
+    "tl_depend": []
+  },
+  {
+    "name": "contract",
+    "depend": [
+      "koma-script"
     ],
     "tl_depend": []
   },
@@ -15420,6 +15432,14 @@
     "tl_depend": []
   },
   {
+    "name": "emotion",
+    "depend": [
+      "fontspec",
+      "l3kernel"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "emp",
     "depend": [
       "graphics",
@@ -16406,6 +16426,7 @@
       "ragged2e",
       "schooldocs",
       "tasks",
+      "tools",
       "translations",
       "versions",
       "xcolor"
@@ -17821,7 +17842,9 @@
     "depend": [
       "bigfoot"
     ],
-    "tl_depend": []
+    "tl_depend": [
+      "bigfoot"
+    ]
   },
   {
     "name": "footmisx",
@@ -21051,6 +21074,7 @@
   {
     "name": "hvqrurl",
     "depend": [
+      "hyperref",
       "marginnote",
       "qrcode",
       "url",
@@ -23506,7 +23530,8 @@
       "xpatch"
     ],
     "tl_depend": [
-      "footmisc"
+      "etoolbox",
+      "xpatch"
     ]
   },
   {
@@ -28242,6 +28267,11 @@
     "tl_depend": []
   },
   {
+    "name": "mnhyphn",
+    "depend": [],
+    "tl_depend": []
+  },
+  {
     "name": "mnotes",
     "depend": [
       "graphics",
@@ -29038,6 +29068,7 @@
     "depend": [
       "bigfoot",
       "etoolbox",
+      "l3packages",
       "trimspaces",
       "xargs"
     ],
@@ -33157,6 +33188,7 @@
       "lualinalg",
       "mathtools",
       "minted",
+      "mleftright",
       "modulus",
       "nicematrix",
       "oberdiek",
@@ -33198,12 +33230,15 @@
     "name": "profsio",
     "depend": [
       "iftex",
+      "latex",
       "listofitems",
       "luacode",
       "lualinalg",
       "nicematrix",
       "pgf",
       "simplekv",
+      "siunitx",
+      "systeme",
       "tabularray",
       "xint",
       "xkeyval",
@@ -35029,7 +35064,9 @@
     "depend": [
       "amsfonts",
       "amsmath",
+      "cjk",
       "comment",
+      "ctex",
       "diagbox",
       "enumitem",
       "environ",
@@ -35039,13 +35076,16 @@
       "freealign",
       "functional",
       "geometry",
+      "iftex",
       "latex",
       "mathdesign",
       "mathtools",
       "medmath",
+      "pdfpages",
       "pgf",
       "tools",
       "xcolor",
+      "xecjk",
       "zref"
     ],
     "tl_depend": []
@@ -42647,6 +42687,13 @@
   {
     "name": "ucthesis",
     "depend": [],
+    "tl_depend": []
+  },
+  {
+    "name": "udepcolor",
+    "depend": [
+      "xcolor"
+    ],
     "tl_depend": []
   },
   {
