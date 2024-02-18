@@ -5705,9 +5705,9 @@
     "name": "chemformula",
     "depend": [
       "amsmath",
-      "l3packages",
       "pgf",
-      "units"
+      "units",
+      "xfrac"
     ],
     "tl_depend": [
       "units"
@@ -5745,6 +5745,7 @@
       "siunitx",
       "tools",
       "translations",
+      "xfrac",
       "xltabular",
       "xymtex"
     ],
@@ -9703,6 +9704,7 @@
       "pstring",
       "pxgreeks",
       "pygmentex",
+      "pynotebook",
       "python",
       "pythonimmediate",
       "q-and-a",
@@ -9918,6 +9920,7 @@
       "tamefloats",
       "tangocolors",
       "tasks",
+      "tblr-extras",
       "tcldoc",
       "tcolorbox",
       "tdclock",
@@ -10185,6 +10188,7 @@
       "underscore",
       "unicode-math",
       "xcolor",
+      "xfrac",
       "xkeyval",
       "xltxtra",
       "xunicode"
@@ -10794,6 +10798,7 @@
       "pict2e",
       "pictex",
       "pictex2",
+      "pictochrono",
       "pinlabel",
       "pixelart",
       "pixelarttikz",
@@ -12146,7 +12151,8 @@
       "fmtcount",
       "l3kernel",
       "l3packages",
-      "translations"
+      "translations",
+      "xfrac"
     ],
     "tl_depend": []
   },
@@ -17798,8 +17804,7 @@
     "depend": [
       "l3packages",
       "latex",
-      "luaotfload",
-      "xunicode"
+      "luaotfload"
     ],
     "tl_depend": [
       "euenc",
@@ -20681,7 +20686,8 @@
     "depend": [
       "l3kernel",
       "l3packages",
-      "pgf"
+      "pgf",
+      "xfrac"
     ],
     "tl_depend": []
   },
@@ -22816,7 +22822,8 @@
       "filehook",
       "l3packages",
       "lm",
-      "luatexja"
+      "luatexja",
+      "sttools"
     ],
     "tl_depend": []
   },
@@ -23853,10 +23860,7 @@
   {
     "name": "l3packages",
     "depend": [
-      "amsmath",
-      "graphics",
-      "l3kernel",
-      "latex"
+      "l3kernel"
     ],
     "tl_depend": [
       "l3kernel"
@@ -24210,7 +24214,6 @@
       "etoolbox",
       "graphics",
       "l3experimental",
-      "l3packages",
       "latex-lab",
       "pdfmanagement-testphase",
       "tagpdf",
@@ -24664,7 +24667,8 @@
       "tcolorbox",
       "tikz-qtree",
       "tools",
-      "xcolor"
+      "xcolor",
+      "xfrac"
     ],
     "tl_depend": []
   },
@@ -30014,6 +30018,7 @@
     "depend": [
       "adjustbox",
       "atbegshi",
+      "babel",
       "changepage",
       "eso-pic",
       "etoolbox",
@@ -31808,8 +31813,10 @@
   {
     "name": "pgf-periodictable",
     "depend": [
+      "fontspec",
       "latex",
-      "pgf"
+      "pgf",
+      "zhnumber"
     ],
     "tl_depend": []
   },
@@ -32275,6 +32282,17 @@
   {
     "name": "pictexsum",
     "depend": [],
+    "tl_depend": []
+  },
+  {
+    "name": "pictochrono",
+    "depend": [
+      "etoolbox",
+      "pgf",
+      "simplekv",
+      "tools",
+      "xstring"
+    ],
     "tl_depend": []
   },
   {
@@ -34662,6 +34680,18 @@
       "kvoptions",
       "l3kernel",
       "lualibs"
+    ],
+    "tl_depend": []
+  },
+  {
+    "name": "pynotebook",
+    "depend": [
+      "environ",
+      "iftex",
+      "piton",
+      "tcolorbox",
+      "tools",
+      "xstring"
     ],
     "tl_depend": []
   },
@@ -38095,7 +38125,8 @@
       "isomath",
       "l3kernel",
       "l3packages",
-      "mathtools"
+      "mathtools",
+      "xfrac"
     ],
     "tl_depend": []
   },
@@ -39704,6 +39735,16 @@
     "depend": [
       "l3kernel",
       "l3packages"
+    ],
+    "tl_depend": []
+  },
+  {
+    "name": "tblr-extras",
+    "depend": [
+      "babel",
+      "caption",
+      "oberdiek",
+      "tabularray"
     ],
     "tl_depend": []
   },
@@ -45036,6 +45077,17 @@
   {
     "name": "xfor",
     "depend": [],
+    "tl_depend": []
+  },
+  {
+    "name": "xfrac",
+    "depend": [
+      "amsmath",
+      "graphics",
+      "l3kernel",
+      "l3packages",
+      "latex"
+    ],
     "tl_depend": []
   },
   {
