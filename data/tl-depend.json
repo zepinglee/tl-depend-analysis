@@ -2799,25 +2799,17 @@
     "name": "beamertheme-arguelles",
     "depend": [
       "alegreya",
-      "booktabs",
-      "cancel",
-      "colortbl",
-      "csvsimple",
       "enumitem",
       "etoolbox",
       "eulervm",
       "fontawesome5",
       "latex",
-      "makecell",
       "mathalpha",
       "microtype",
       "opencolor",
       "parskip",
       "pgf",
-      "pgfplots",
-      "tcolorbox",
-      "tools",
-      "ulem"
+      "tcolorbox"
     ],
     "tl_depend": []
   },
@@ -3106,6 +3098,48 @@
       "xkeyval",
       "xpatch",
       "zhnumber"
+    ],
+    "tl_depend": []
+  },
+  {
+    "name": "beautynote",
+    "depend": [
+      "amscls",
+      "amsfonts",
+      "amsmath",
+      "babel",
+      "bbding",
+      "biblatex",
+      "booktabs",
+      "bropd",
+      "csquotes",
+      "doclicense",
+      "enumitem",
+      "eso-pic",
+      "etoolbox",
+      "fancyhdr",
+      "fbox",
+      "float",
+      "geometry",
+      "graphics",
+      "latex",
+      "lipsum",
+      "mathtools",
+      "mdframed",
+      "ninecolors",
+      "pgf",
+      "pgfornament-han",
+      "pgfplots",
+      "physics",
+      "psfrag",
+      "psnfss",
+      "shadowtext",
+      "titlesec",
+      "tools",
+      "transparent",
+      "varwidth",
+      "xcolor",
+      "xpatch"
     ],
     "tl_depend": []
   },
@@ -6423,6 +6457,16 @@
     "tl_depend": []
   },
   {
+    "name": "cleveref-forward",
+    "depend": [
+      "cleveref",
+      "crefthe",
+      "oberdiek",
+      "regexpatch"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "cleveref-usedon",
     "depend": [
       "cleveref",
@@ -7726,6 +7770,7 @@
       "trivialpursuit",
       "twoxtwogame",
       "wargame",
+      "weiqi",
       "wordle",
       "xq",
       "xskak"
@@ -8687,6 +8732,7 @@
       "bearwear",
       "beaulivre",
       "beautybook",
+      "beautynote",
       "beton",
       "bewerbung",
       "bez123",
@@ -8780,6 +8826,7 @@
       "classpack",
       "clefval",
       "cleveref",
+      "cleveref-forward",
       "cleveref-usedon",
       "clicks",
       "clipboard",
@@ -8943,6 +8990,7 @@
       "diagnose",
       "dialogl",
       "dichokey",
+      "didec",
       "dimnum",
       "dinbrief",
       "directory",
@@ -13836,6 +13884,11 @@
     "tl_depend": []
   },
   {
+    "name": "didec",
+    "depend": [],
+    "tl_depend": []
+  },
+  {
     "name": "diffcoeff",
     "depend": [
       "l3kernel",
@@ -15061,7 +15114,7 @@
       "tikz-cd",
       "tools",
       "unicode-math",
-      "wrapfig"
+      "wrapfig2"
     ],
     "tl_depend": [
       "minimalist"
@@ -17299,7 +17352,9 @@
   },
   {
     "name": "firstaid",
-    "depend": [],
+    "depend": [
+      "l3packages"
+    ],
     "tl_depend": []
   },
   {
@@ -25337,6 +25392,7 @@
       "fontawesome5",
       "fontspec",
       "kvoptions",
+      "libertine",
       "newtx",
       "psnfss",
       "standalone",
@@ -27970,7 +28026,7 @@
       "titlesec",
       "tools",
       "ulem",
-      "wrapfig"
+      "wrapfig2"
     ],
     "tl_depend": [
       "projlib"
@@ -28078,7 +28134,8 @@
       "l3packages",
       "latex",
       "mathtools",
-      "tools"
+      "tools",
+      "xkeyval"
     ],
     "tl_depend": []
   },
@@ -32352,6 +32409,7 @@
     "depend": [
       "footnotehyper",
       "l3packages",
+      "luacode",
       "luatexbase",
       "mdwtools"
     ],
@@ -33259,6 +33317,7 @@
       "siunitx",
       "systeme",
       "tabularray",
+      "tools",
       "xint",
       "xkeyval",
       "xstring"
@@ -37935,7 +37994,7 @@
       "tikz-cd",
       "tools",
       "unicode-math",
-      "wrapfig"
+      "wrapfig2"
     ],
     "tl_depend": [
       "minimalist"
@@ -44446,6 +44505,13 @@
     "tl_depend": [
       "webquiz.ARCH"
     ]
+  },
+  {
+    "name": "weiqi",
+    "depend": [
+      "l3experimental"
+    ],
+    "tl_depend": []
   },
   {
     "name": "wheelchart",
