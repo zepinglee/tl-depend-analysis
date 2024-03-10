@@ -5748,6 +5748,11 @@
     ]
   },
   {
+    "name": "chemformula-ru",
+    "depend": [],
+    "tl_depend": []
+  },
+  {
     "name": "chemgreek",
     "depend": [
       "amsmath",
@@ -6041,8 +6046,10 @@
     "depend": [
       "latex",
       "pgf",
+      "relsize",
       "tkz-euclide",
-      "tools"
+      "tools",
+      "wasysym"
     ],
     "tl_depend": []
   },
@@ -9180,6 +9187,7 @@
       "foilhtml",
       "foliono",
       "fontaxes",
+      "fontscale",
       "fontsetup",
       "fontsize",
       "fonttable",
@@ -9393,6 +9401,7 @@
       "labels4easylist",
       "labelschanged",
       "lambdax",
+      "lastbib",
       "lastpackage",
       "lastpage",
       "latex-amsmath-dev",
@@ -10066,6 +10075,7 @@
       "upmethodology",
       "upquote",
       "uri",
+      "useclass",
       "ushort",
       "uspace",
       "utf8add",
@@ -10397,6 +10407,7 @@
       "chemcono",
       "chemexec",
       "chemformula",
+      "chemformula-ru",
       "chemgreek",
       "chemmacros",
       "chemnum",
@@ -14283,7 +14294,8 @@
     "depend": [
       "everypage",
       "graphics",
-      "kvoptions"
+      "kvoptions",
+      "xcolor"
     ],
     "tl_depend": []
   },
@@ -17835,6 +17847,11 @@
     "tl_depend": []
   },
   {
+    "name": "fontscale",
+    "depend": [],
+    "tl_depend": []
+  },
+  {
     "name": "fontsetup",
     "depend": [
       "erewhon-math",
@@ -21086,6 +21103,7 @@
       "atbegshi",
       "caption",
       "etoolbox",
+      "fbox",
       "graphics",
       "hyperref",
       "ifoddpage",
@@ -21096,7 +21114,8 @@
       "sttools",
       "tools",
       "varwidth",
-      "xkeyval"
+      "xkeyval",
+      "zref"
     ],
     "tl_depend": []
   },
@@ -23090,8 +23109,7 @@
       "etoolbox",
       "l3packages",
       "latex",
-      "tools",
-      "xkeyval"
+      "tools"
     ],
     "tl_depend": []
   },
@@ -24072,6 +24090,11 @@
     "depend": [
       "tools"
     ],
+    "tl_depend": []
+  },
+  {
+    "name": "lastbib",
+    "depend": [],
     "tl_depend": []
   },
   {
@@ -25391,6 +25414,7 @@
       "etoolbox",
       "fontawesome5",
       "fontspec",
+      "hyperref",
       "kvoptions",
       "libertine",
       "newtx",
@@ -32478,6 +32502,7 @@
   {
     "name": "pkuthss",
     "depend": [
+      "amsfonts",
       "amsmath",
       "caption",
       "ctex",
@@ -33257,12 +33282,14 @@
       "esvect",
       "fancyvrb",
       "fontawesome5",
+      "gmp",
       "hologo",
       "iftex",
       "interval",
       "latex",
       "listofitems",
       "lualinalg",
+      "luamplib",
       "mathtools",
       "minted",
       "mleftright",
@@ -42559,7 +42586,6 @@
       "amscls",
       "amsfonts",
       "amsmath",
-      "bubblesort",
       "etoolbox",
       "latex",
       "mathtools",
@@ -43852,6 +43878,11 @@
       "graphics",
       "url"
     ],
+    "tl_depend": []
+  },
+  {
+    "name": "useclass",
+    "depend": [],
     "tl_depend": []
   },
   {
