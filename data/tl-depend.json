@@ -2124,7 +2124,9 @@
   {
     "name": "babel-english",
     "depend": [],
-    "tl_depend": []
+    "tl_depend": [
+      "hyphen-english"
+    ]
   },
   {
     "name": "babel-esperanto",
@@ -4180,6 +4182,7 @@
       "pgf",
       "psnfss",
       "setspace",
+      "stmaryrd",
       "titlesec",
       "tools",
       "unicode-math",
@@ -7919,6 +7922,7 @@
       "njurepo",
       "pgfornament-han",
       "qyxf-book",
+      "sjtutex",
       "texlive-zh-cn",
       "texproposal",
       "tlmgr-intro-zh-cn",
@@ -8412,7 +8416,6 @@
       "pxjodel",
       "pxrubrica",
       "pxufont",
-      "sjtutex",
       "texlive-ja",
       "uplatex",
       "uptex",
@@ -10019,7 +10022,6 @@
       "texvc",
       "theoremref",
       "thinsp",
-      "thmtools",
       "threadcol",
       "threeparttable",
       "threeparttablex",
@@ -10289,11 +10291,13 @@
       "emojicite",
       "enigma",
       "gitinfo-lua",
+      "ideavault",
       "innerscript",
       "interpreter",
       "kanaparser",
       "ligtype",
       "linebreaker",
+      "longmath",
       "lparse",
       "lt3luabridge",
       "lua-placeholders",
@@ -10442,6 +10446,7 @@
       "conteq",
       "correctmathalign",
       "cryptocode",
+      "cs-techrep",
       "csassignments",
       "cvss",
       "decision-table",
@@ -10578,6 +10583,7 @@
       "rank-2-roots",
       "rbt-mathnotes",
       "rec-thy",
+      "reptheorem",
       "resolsysteme",
       "rest-api",
       "revquantum",
@@ -10628,6 +10634,8 @@
       "textopo",
       "thermodynamics",
       "thmbox",
+      "thmlist",
+      "thmtools",
       "tiscreen",
       "turnstile",
       "ulqda",
@@ -11353,6 +11361,8 @@
       "hobete",
       "hu-berlin-bundle",
       "hustthesis",
+      "iaria",
+      "iaria-lite",
       "icsv",
       "ieeeconf",
       "ieeepes",
@@ -11452,6 +11462,7 @@
       "seu-ml-assign",
       "seuthesis",
       "seuthesix",
+      "sfee",
       "shortmathj",
       "shtthesis",
       "smflatex",
@@ -12696,6 +12707,48 @@
     "tl_depend": [
       "cmexb"
     ]
+  },
+  {
+    "name": "cs-techrep",
+    "depend": [
+      "acronym",
+      "amsfonts",
+      "amsmath",
+      "babel",
+      "biblatex",
+      "booktabs",
+      "ccicons",
+      "cleveref",
+      "csquotes",
+      "diagbox",
+      "etoolbox",
+      "graphics",
+      "hyperref",
+      "ieeetran",
+      "latex",
+      "lipsum",
+      "listings",
+      "lm",
+      "microtype",
+      "ncctools",
+      "newtxtt",
+      "oberdiek",
+      "orcidlink",
+      "paralist",
+      "pbalance",
+      "pdfcomment",
+      "pdflscape",
+      "psnfss",
+      "siunitx",
+      "sttools",
+      "subfig",
+      "tcolorbox",
+      "tools",
+      "upquote",
+      "url",
+      "xcolor"
+    ],
+    "tl_depend": []
   },
   {
     "name": "csassignments",
@@ -21836,6 +21889,41 @@
     "tl_depend": []
   },
   {
+    "name": "iaria",
+    "depend": [
+      "biblatex",
+      "graphics",
+      "hyperref",
+      "ieeetran",
+      "latex",
+      "ncctools",
+      "orcidlink",
+      "pbalance",
+      "psnfss",
+      "sttools",
+      "url",
+      "xcolor",
+      "xpatch"
+    ],
+    "tl_depend": []
+  },
+  {
+    "name": "iaria-lite",
+    "depend": [
+      "graphics",
+      "hyperref",
+      "ieeetran",
+      "orcidlink",
+      "pbalance",
+      "psnfss",
+      "sttools",
+      "url",
+      "xcolor",
+      "xpatch"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "ibarra",
     "depend": [
       "fontaxes",
@@ -21885,6 +21973,18 @@
       "latex",
       "psnfss",
       "tools"
+    ],
+    "tl_depend": []
+  },
+  {
+    "name": "ideavault",
+    "depend": [
+      "bookmark",
+      "luacode",
+      "mdframed",
+      "needspace",
+      "xargs",
+      "xpatch"
     ],
     "tl_depend": []
   },
@@ -24226,7 +24326,8 @@
   {
     "name": "latex-firstaid-dev",
     "depend": [
-      "firstaid"
+      "firstaid",
+      "l3packages"
     ],
     "tl_depend": []
   },
@@ -25358,12 +25459,12 @@
   {
     "name": "litebook",
     "depend": [
-      "amscls",
       "amsfonts",
       "anyfontsize",
       "booktabs",
       "cancel",
       "caption",
+      "ctex",
       "datetime",
       "derivative",
       "diagbox",
@@ -25385,8 +25486,6 @@
       "latex",
       "libertine",
       "lipsum",
-      "listofitems",
-      "mdframed",
       "multirow",
       "newtx",
       "nicematrix",
@@ -25395,11 +25494,11 @@
       "refstyle",
       "setspace",
       "siunitx",
+      "thmlist",
       "tocloft",
       "tools",
       "units",
       "xcolor",
-      "xecjk",
       "zhlipsum"
     ],
     "tl_depend": []
@@ -25685,6 +25784,13 @@
     "depend": [
       "tocloft",
       "xkeyval"
+    ],
+    "tl_depend": []
+  },
+  {
+    "name": "longmath",
+    "depend": [
+      "luatexbase"
     ],
     "tl_depend": []
   },
@@ -27937,7 +28043,9 @@
       "luatexbase",
       "xcolor"
     ],
-    "tl_depend": []
+    "tl_depend": [
+      "etoolbox"
+    ]
   },
   {
     "name": "microtype-de",
@@ -28941,7 +29049,8 @@
   {
     "name": "multifootnote",
     "depend": [
-      "l3packages"
+      "hyperref",
+      "refcount"
     ],
     "tl_depend": []
   },
@@ -32477,7 +32586,8 @@
       "l3packages",
       "luacode",
       "luatexbase",
-      "mdwtools"
+      "mdwtools",
+      "xcolor"
     ],
     "tl_depend": []
   },
@@ -33269,16 +33379,13 @@
     "name": "profcollege",
     "depend": [
       "amsfonts",
-      "bigfoot",
       "cancel",
       "datatool",
-      "environ",
       "fmtcount",
       "fontawesome5",
       "gmp",
       "ifoddpage",
       "iftex",
-      "l3packages",
       "latex",
       "listofitems",
       "luacas",
@@ -33286,7 +33393,6 @@
       "mathtools",
       "modulus",
       "multido",
-      "multirow",
       "nicematrix",
       "pgf",
       "psnfss",
@@ -35417,6 +35523,7 @@
     "name": "rec-thy",
     "depend": [
       "amsmath",
+      "bbm-macros",
       "bigfoot",
       "enumitem",
       "etoolbox",
@@ -35426,7 +35533,6 @@
       "l3kernel",
       "l3packages",
       "ltxcmds",
-      "mathtools",
       "pict2e",
       "picture",
       "xifthen",
@@ -35665,6 +35771,11 @@
       "graphics",
       "hyperref"
     ],
+    "tl_depend": []
+  },
+  {
+    "name": "reptheorem",
+    "depend": [],
     "tl_depend": []
   },
   {
@@ -37569,6 +37680,23 @@
     "tl_depend": []
   },
   {
+    "name": "sfee",
+    "depend": [
+      "academicons",
+      "ccicons",
+      "datetime",
+      "etoolbox",
+      "graphics",
+      "mdframed",
+      "paper",
+      "preprint",
+      "svg",
+      "xcolor",
+      "yfonts"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "sffms",
     "depend": [
       "fancyhdr",
@@ -38786,6 +38914,7 @@
       "pgf",
       "pgf-pie",
       "pgfplots",
+      "phaistos",
       "pst-coil",
       "pstricks-add",
       "setspace",
@@ -40894,6 +41023,16 @@
     "name": "thmbox",
     "depend": [
       "graphics"
+    ],
+    "tl_depend": []
+  },
+  {
+    "name": "thmlist",
+    "depend": [
+      "amscls",
+      "listofitems",
+      "mdframed",
+      "pgf"
     ],
     "tl_depend": []
   },
