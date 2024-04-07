@@ -10437,6 +10437,7 @@
       "codeanatomy",
       "collection-fontsrecommended",
       "collection-latex",
+      "coloredtheorem",
       "commath",
       "commutative-diagrams",
       "complexity",
@@ -11653,6 +11654,13 @@
       "simplekv",
       "tools",
       "xstring"
+    ],
+    "tl_depend": []
+  },
+  {
+    "name": "coloredtheorem",
+    "depend": [
+      "tcolorbox"
     ],
     "tl_depend": []
   },
@@ -13143,6 +13151,7 @@
       "randomlist",
       "simplekv",
       "tabularray",
+      "tcolorbox",
       "tools",
       "xcolor",
       "xint",
@@ -13201,7 +13210,9 @@
     "name": "cweb",
     "depend": [],
     "tl_depend": [
-      "cweb.ARCH"
+      "cweb.ARCH",
+      "iftex",
+      "kpathsea"
     ]
   },
   {
@@ -18393,7 +18404,9 @@
       "lineno",
       "upquote"
     ],
-    "tl_depend": []
+    "tl_depend": [
+      "fancyvrb"
+    ]
   },
   {
     "name": "fwlw",
@@ -21347,12 +21360,16 @@
       "etexcmds",
       "gettitlestring",
       "hycolor",
+      "iftex",
+      "infwarerr",
       "intcalc",
       "kvdefinekeys",
+      "kvoptions",
       "kvsetkeys",
       "letltxmacro",
       "ltxcmds",
       "pdfescape",
+      "pdftexcmds",
       "refcount",
       "rerunfilecheck",
       "stringenc",
@@ -27372,7 +27389,9 @@
       "graphics",
       "tools"
     ],
-    "tl_depend": []
+    "tl_depend": [
+      "amsmath"
+    ]
   },
   {
     "name": "matlab-prettifier",
@@ -28276,6 +28295,7 @@
       "newfloat",
       "pdftexcmds",
       "tools",
+      "upquote",
       "xcolor",
       "xstring"
     ]
@@ -28591,13 +28611,18 @@
       "xcolor"
     ],
     "tl_depend": [
+      "academicons",
+      "arydshln",
+      "colortbl",
       "etoolbox",
       "fancyhdr",
+      "fontawesome5",
       "graphics",
       "hyperref",
       "iftex",
       "l3packages",
       "microtype",
+      "multirow",
       "tools",
       "url",
       "xcolor"
@@ -33426,7 +33451,6 @@
       "esvect",
       "fancyvrb",
       "fontawesome5",
-      "gmp",
       "hologo",
       "iftex",
       "interval",
@@ -34924,7 +34948,6 @@
   {
     "name": "pynotebook",
     "depend": [
-      "environ",
       "iftex",
       "piton",
       "tcolorbox",
@@ -38269,7 +38292,7 @@
       "pdfpages",
       "psnfss",
       "stix2-type1",
-      "tocloft",
+      "titlesec",
       "tools",
       "translations",
       "unicode-math",
@@ -40075,7 +40098,11 @@
       "tikzfill",
       "tools"
     ],
-    "tl_depend": []
+    "tl_depend": [
+      "environ",
+      "pgf",
+      "tools"
+    ]
   },
   {
     "name": "tdclock",
@@ -44916,7 +44943,10 @@
       "xcolor",
       "xkeyval"
     ],
-    "tl_depend": []
+    "tl_depend": [
+      "float",
+      "pict2e"
+    ]
   },
   {
     "name": "wrapstuff",
