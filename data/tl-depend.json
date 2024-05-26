@@ -5412,6 +5412,14 @@
     "tl_depend": []
   },
   {
+    "name": "catppuccinpalette",
+    "depend": [
+      "pgfopts",
+      "xcolor"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "causets",
     "depend": [
       "pgf"
@@ -8838,6 +8846,7 @@
       "catchfilebetweentags",
       "catechis",
       "catoptions",
+      "catppuccinpalette",
       "cbcoptic",
       "ccaption",
       "cclicenses",
@@ -10403,6 +10412,7 @@
       "pyluatex",
       "scikgtex",
       "selnolig",
+      "semesterplannerlua",
       "showhyphenation",
       "showkerning",
       "spacekern",
@@ -10733,6 +10743,7 @@
       "mpchess",
       "mpcolornames",
       "mpgraphics",
+      "mpkiviat",
       "mptrees",
       "piechartmp",
       "repere",
@@ -11469,6 +11480,7 @@
       "nrc",
       "nwafuthesis",
       "nwejm",
+      "nxuthesis",
       "onrannual",
       "opteng",
       "osda",
@@ -13205,6 +13217,7 @@
       "tabularray",
       "tcolorbox",
       "tools",
+      "varwidth",
       "xcolor",
       "xint",
       "xstring"
@@ -21436,7 +21449,6 @@
     "depend": [
       "atbegshi",
       "atveryend",
-      "auxhook",
       "bitset",
       "etoolbox",
       "gettitlestring",
@@ -25387,7 +25399,6 @@
   {
     "name": "liftarm",
     "depend": [
-      "etoolbox",
       "pgf",
       "xcolor"
     ],
@@ -26809,7 +26820,6 @@
     "name": "luatexja",
     "depend": [
       "ascmac",
-      "atbegshi",
       "collcell",
       "etoolbox",
       "everyhook",
@@ -29065,6 +29075,11 @@
     "tl_depend": []
   },
   {
+    "name": "mpkiviat",
+    "depend": [],
+    "tl_depend": []
+  },
+  {
     "name": "mpman-ru",
     "depend": [],
     "tl_depend": []
@@ -30712,6 +30727,41 @@
       "unicode-math",
       "xcolor",
       "zref"
+    ],
+    "tl_depend": []
+  },
+  {
+    "name": "nxuthesis",
+    "depend": [
+      "amsmath",
+      "bibunits",
+      "booktabs",
+      "caption",
+      "ctex",
+      "enumitem",
+      "environ",
+      "etoolbox",
+      "fancyhdr",
+      "filehook",
+      "footmisc",
+      "geometry",
+      "graphics",
+      "iftex",
+      "kvdefinekeys",
+      "kvoptions",
+      "kvsetkeys",
+      "l3packages",
+      "latex",
+      "natbib",
+      "newtx",
+      "notoccite",
+      "pdfpages",
+      "titlesec",
+      "tools",
+      "ulem",
+      "unicode-math",
+      "url",
+      "xecjk"
     ],
     "tl_depend": []
   },
@@ -37697,6 +37747,16 @@
       "graphics",
       "pgf",
       "schedule"
+    ],
+    "tl_depend": []
+  },
+  {
+    "name": "semesterplannerlua",
+    "depend": [
+      "fontawesome",
+      "luapackageloader",
+      "pgf",
+      "xcolor"
     ],
     "tl_depend": []
   },
