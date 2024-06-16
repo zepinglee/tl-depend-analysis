@@ -1084,6 +1084,7 @@
       "cmtiup",
       "environ",
       "fancyhdr",
+      "graphics",
       "hyperref",
       "iftex",
       "lastpage",
@@ -1393,6 +1394,7 @@
   {
     "name": "argumentation",
     "depend": [
+      "amsmath",
       "pgf",
       "pgfopts"
     ],
@@ -8954,6 +8956,7 @@
       "copyedit",
       "copyrightbox",
       "coseoul",
+      "count1to",
       "counterz",
       "counttexruns",
       "courseoutline",
@@ -9648,6 +9651,7 @@
       "multilang",
       "multiple-choice",
       "multirow",
+      "multitoc",
       "mversion",
       "mwe",
       "mycv",
@@ -9976,6 +9980,7 @@
       "spacingtricks",
       "spark-otf",
       "sparklines",
+      "spelatex",
       "sphack",
       "splitindex",
       "spot",
@@ -9989,6 +9994,7 @@
       "stack",
       "stackengine",
       "standalone",
+      "standardsectioning",
       "starray",
       "stdclsdv",
       "stdpage",
@@ -10293,7 +10299,6 @@
       "memoir",
       "metalogo",
       "microtype",
-      "ms",
       "newfloat",
       "ntgclass",
       "parskip",
@@ -10573,6 +10578,7 @@
       "kvmap",
       "letterswitharrows",
       "lie-hasse",
+      "linearregression",
       "logicproof",
       "longdivision",
       "lpform",
@@ -12079,7 +12085,7 @@
       "index",
       "kvoptions",
       "latex",
-      "ms",
+      "multitoc",
       "pdfpages",
       "sectsty",
       "titlesec",
@@ -12484,6 +12490,13 @@
     "name": "couleurs-fr",
     "depend": [
       "xcolor"
+    ],
+    "tl_depend": []
+  },
+  {
+    "name": "count1to",
+    "depend": [
+      "everyshi"
     ],
     "tl_depend": []
   },
@@ -13044,7 +13057,7 @@
       "latex",
       "luatexja",
       "makecell",
-      "ms",
+      "multitoc",
       "platex-tools",
       "siunitx",
       "threeparttable",
@@ -13076,7 +13089,6 @@
       "ltxcmds",
       "luatexja",
       "mptopdf",
-      "ms",
       "pdftexcmds",
       "platex-tools",
       "svn-prov",
@@ -25491,6 +25503,13 @@
     "tl_depend": []
   },
   {
+    "name": "linearregression",
+    "depend": [
+      "pict2e"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "linebreaker",
     "depend": [
       "luatexbase"
@@ -29128,15 +29147,6 @@
     "tl_depend": []
   },
   {
-    "name": "ms",
-    "depend": [
-      "everyshi",
-      "latex",
-      "tools"
-    ],
-    "tl_depend": []
-  },
-  {
     "name": "msc",
     "depend": [
       "pgf",
@@ -29327,6 +29337,14 @@
   {
     "name": "multirow",
     "depend": [],
+    "tl_depend": []
+  },
+  {
+    "name": "multitoc",
+    "depend": [
+      "latex",
+      "tools"
+    ],
     "tl_depend": []
   },
   {
@@ -31999,10 +32017,10 @@
   {
     "name": "pdfpages",
     "depend": [
+      "count1to",
       "eso-pic",
       "graphics",
       "latex",
-      "ms",
       "pdflscape",
       "tools"
     ],
@@ -32318,7 +32336,6 @@
       "atveryend",
       "fp",
       "graphics",
-      "ms",
       "pdftexcmds",
       "xcolor"
     ]
@@ -39072,6 +39089,21 @@
     "tl_depend": []
   },
   {
+    "name": "spelatex",
+    "depend": [
+      "babel",
+      "fancyvrb",
+      "graphics",
+      "hyperref",
+      "kvoptions",
+      "l3kernel",
+      "latex",
+      "newfile",
+      "xcolor"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "spelling",
     "depend": [
       "atbegshi",
@@ -39336,6 +39368,11 @@
       "gincltex",
       "xkeyval"
     ]
+  },
+  {
+    "name": "standardsectioning",
+    "depend": [],
+    "tl_depend": []
   },
   {
     "name": "stanli",
@@ -42383,6 +42420,7 @@
       "simplekv",
       "siunitx",
       "xint",
+      "xint-regression",
       "xstring"
     ],
     "tl_depend": []
