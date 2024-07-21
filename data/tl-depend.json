@@ -6379,7 +6379,6 @@
       "microtype",
       "natbib",
       "numprint",
-      "oberdiek",
       "paracol",
       "ragged2e",
       "relsize",
@@ -7535,6 +7534,7 @@
       "linguisticspro",
       "lobster2",
       "logix",
+      "luwiantype",
       "lxfonts",
       "ly1",
       "magra",
@@ -8138,6 +8138,7 @@
       "undergradmath",
       "visualfaq",
       "webguide",
+      "wrapstuff-doc-en",
       "xetexref",
       "yet-another-guide-latex2e"
     ]
@@ -10591,6 +10592,7 @@
       "mhequ",
       "miller",
       "mismath",
+      "moremath",
       "multiobjective",
       "naive-ebnf",
       "namedtensor",
@@ -20595,7 +20597,6 @@
       "colortbl",
       "enumitem",
       "environ",
-      "everypage",
       "fancyhdr",
       "geometry",
       "graphics",
@@ -26865,9 +26866,7 @@
       "collcell",
       "etoolbox",
       "everyhook",
-      "everysel",
       "everyshi",
-      "filehook",
       "fontspec",
       "iftex",
       "infwarerr",
@@ -26967,6 +26966,16 @@
       "penlightplus",
       "tools",
       "xcolor"
+    ],
+    "tl_depend": []
+  },
+  {
+    "name": "luwiantype",
+    "depend": [
+      "fontspec",
+      "graphics",
+      "moresize",
+      "stackengine"
     ],
     "tl_depend": []
   },
@@ -29028,6 +29037,15 @@
       "dowith",
       "langcode",
       "nicetext"
+    ],
+    "tl_depend": []
+  },
+  {
+    "name": "moremath",
+    "depend": [
+      "amsfonts",
+      "mathtools",
+      "tools"
     ],
     "tl_depend": []
   },
@@ -33347,7 +33365,6 @@
       "fontspec",
       "iftex",
       "luabidi",
-      "luatexbase",
       "tools",
       "xkeyval"
     ],
@@ -45429,6 +45446,11 @@
       "l3kernel",
       "l3packages"
     ],
+    "tl_depend": []
+  },
+  {
+    "name": "wrapstuff-doc-en",
+    "depend": [],
     "tl_depend": []
   },
   {
