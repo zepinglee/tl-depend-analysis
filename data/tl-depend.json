@@ -7889,6 +7889,7 @@
       "expex-glossonly",
       "gb4e",
       "gmverse",
+      "interlinear",
       "jura",
       "juraabbrev",
       "juramisc",
@@ -7995,6 +7996,7 @@
       "pgfornament-han",
       "qyxf-book",
       "sjtutex",
+      "suanpan-l3",
       "texlive-zh-cn",
       "texproposal",
       "tlmgr-intro-zh-cn",
@@ -9172,6 +9174,7 @@
       "enumitem",
       "enumitem-zref",
       "envbig",
+      "enverb",
       "environ",
       "envlab",
       "epcqrcode",
@@ -10265,6 +10268,7 @@
       "xpeek",
       "xprintlen",
       "xpunctuate",
+      "xreview",
       "xsavebox",
       "xsim",
       "xstring",
@@ -14433,7 +14437,11 @@
   },
   {
     "name": "domaincoloring",
-    "depend": [],
+    "depend": [
+      "graphics",
+      "tools",
+      "xkeyval"
+    ],
     "tl_depend": []
   },
   {
@@ -15967,6 +15975,13 @@
   {
     "name": "envbig",
     "depend": [],
+    "tl_depend": []
+  },
+  {
+    "name": "enverb",
+    "depend": [
+      "expkv-bundle"
+    ],
     "tl_depend": []
   },
   {
@@ -22840,6 +22855,25 @@
     "tl_depend": []
   },
   {
+    "name": "interlinear",
+    "depend": [
+      "enumitem",
+      "etoolbox",
+      "l3packages",
+      "marginnote",
+      "xifthen",
+      "xkeyval"
+    ],
+    "tl_depend": [
+      "enumitem",
+      "etoolbox",
+      "l3packages",
+      "marginnote",
+      "xifthen",
+      "xkeyval"
+    ]
+  },
+  {
     "name": "interpreter",
     "depend": [],
     "tl_depend": []
@@ -27537,7 +27571,11 @@
       "url",
       "verse"
     ],
-    "tl_depend": []
+    "tl_depend": [
+      "l3kernel",
+      "lt3luabridge",
+      "lua-uni-algos"
+    ]
   },
   {
     "name": "marvosym",
@@ -33971,8 +34009,11 @@
     "name": "profmaquette",
     "depend": [
       "datatool",
+      "enumitem",
+      "fontawesome5",
       "listofitems",
       "modulus",
+      "pgfmorepages",
       "ragged2e",
       "simplekv",
       "tcolorbox",
@@ -39910,6 +39951,15 @@
   {
     "name": "suanpan",
     "depend": [],
+    "tl_depend": []
+  },
+  {
+    "name": "suanpan-l3",
+    "depend": [
+      "l3experimental",
+      "l3kernel",
+      "l3packages"
+    ],
     "tl_depend": []
   },
   {
@@ -46428,6 +46478,22 @@
   {
     "name": "xq",
     "depend": [],
+    "tl_depend": []
+  },
+  {
+    "name": "xreview",
+    "depend": [
+      "amsmath",
+      "environ",
+      "etoolbox",
+      "l3packages",
+      "letltxmacro",
+      "psnfss",
+      "soul",
+      "todonotes",
+      "ulem",
+      "xcolor"
+    ],
     "tl_depend": []
   },
   {
