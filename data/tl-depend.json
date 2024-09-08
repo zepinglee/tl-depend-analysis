@@ -562,6 +562,14 @@
     "tl_depend": []
   },
   {
+    "name": "aiplans",
+    "depend": [
+      "listofitems",
+      "pgf"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "ajl",
     "depend": [],
     "tl_depend": []
@@ -6308,9 +6316,9 @@
     ],
     "tl_depend": [
       "citation-style-language.ARCH",
-      "filehook",
       "l3kernel",
       "l3packages",
+      "lua-tinyyaml",
       "lua-uca",
       "lualibs",
       "luatex",
@@ -8652,6 +8660,7 @@
       "latex2e-help-texinfo-spanish",
       "latexcheat-esmx",
       "lshort-spanish",
+      "quran-es",
       "texlive-es"
     ]
   },
@@ -9307,6 +9316,7 @@
       "fragments",
       "frame",
       "framed",
+      "framedsyntax",
       "frankenstein",
       "frege",
       "froufrou",
@@ -9951,6 +9961,7 @@
       "schooldocs",
       "scontents",
       "scrambledenvs",
+      "scrhack",
       "scrlayer-fancyhdr",
       "scrlttr2copy",
       "scrwfile",
@@ -10491,6 +10502,7 @@
     "tl_depend": [
       "12many",
       "accents",
+      "aiplans",
       "alg",
       "algobox",
       "algorithm2e",
@@ -10556,6 +10568,7 @@
       "cryptocode",
       "cs-techrep",
       "csassignments",
+      "csthm",
       "cvss",
       "decision-table",
       "delim",
@@ -13017,6 +13030,18 @@
   {
     "name": "cstex",
     "depend": [],
+    "tl_depend": []
+  },
+  {
+    "name": "csthm",
+    "depend": [
+      "amscls",
+      "amsfonts",
+      "amsmath",
+      "cleveref",
+      "enumitem",
+      "thmtools"
+    ],
     "tl_depend": []
   },
   {
@@ -18458,6 +18483,16 @@
   {
     "name": "framed",
     "depend": [],
+    "tl_depend": []
+  },
+  {
+    "name": "framedsyntax",
+    "depend": [
+      "etoolbox",
+      "pict2e",
+      "xcolor",
+      "xkeyval"
+    ],
     "tl_depend": []
   },
   {
@@ -35787,6 +35822,16 @@
     "tl_depend": []
   },
   {
+    "name": "quran-es",
+    "depend": [
+      "bidi",
+      "quran",
+      "xkeyval",
+      "xstring"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "quran-id",
     "depend": [
       "quran",
@@ -36813,8 +36858,11 @@
   {
     "name": "rub-kunstgeschichte",
     "depend": [
+      "biblatex",
       "geometry",
+      "hyperref",
       "latex",
+      "parskip",
       "setspace"
     ],
     "tl_depend": []
@@ -37765,6 +37813,18 @@
     "depend": [
       "latex",
       "setspace"
+    ],
+    "tl_depend": []
+  },
+  {
+    "name": "scrhack",
+    "depend": [
+      "floatbytocbasic",
+      "floatrowbytocbasic",
+      "koma-script",
+      "lscapeenhanced",
+      "standardsectioning",
+      "xpatch"
     ],
     "tl_depend": []
   },
@@ -39958,7 +40018,8 @@
     "depend": [
       "l3experimental",
       "l3kernel",
-      "l3packages"
+      "l3packages",
+      "pgf"
     ],
     "tl_depend": []
   },
