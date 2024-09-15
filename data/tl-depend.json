@@ -5389,6 +5389,11 @@
     "tl_depend": []
   },
   {
+    "name": "cascadiamono-otf",
+    "depend": [],
+    "tl_depend": []
+  },
+  {
     "name": "cascadilla",
     "depend": [
       "caption",
@@ -7418,6 +7423,7 @@
       "carlito",
       "carolmin-ps",
       "cascadia-code",
+      "cascadiamono-otf",
       "ccicons",
       "cfr-initials",
       "cfr-lm",
@@ -7794,7 +7800,6 @@
       "antomega",
       "collection-basic",
       "collection-latex",
-      "edmac",
       "eplain",
       "hitex",
       "jadetex",
@@ -7891,6 +7896,7 @@
       "dvgloss",
       "ecltree",
       "edfnotes",
+      "edmac",
       "eledform",
       "eledmac",
       "expex",
@@ -9210,6 +9216,7 @@
       "etoc",
       "eukdate",
       "eulerpx",
+      "euromoney",
       "europasscv",
       "europecv",
       "everyhook",
@@ -9237,6 +9244,7 @@
       "exsheets",
       "exsol",
       "extract",
+      "ezedits",
       "facsimile",
       "factura",
       "fail-fast",
@@ -10301,6 +10309,7 @@
       "zref-check",
       "zref-clever",
       "zref-vario",
+      "zugferd",
       "zwgetfdate",
       "zwpagelayout"
     ]
@@ -10633,6 +10642,7 @@
       "karnaugh",
       "karnaugh-map",
       "karnaughmap",
+      "keytheorems",
       "kvmap",
       "letterswitharrows",
       "lie-hasse",
@@ -16592,6 +16602,17 @@
     "tl_depend": []
   },
   {
+    "name": "euromoney",
+    "depend": [
+      "graphics",
+      "listofitems",
+      "pgf",
+      "simplekv",
+      "xstring"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "europasscv",
     "depend": [
       "biblatex-ext",
@@ -17004,6 +17025,15 @@
     "name": "extsizes",
     "depend": [
       "latex"
+    ],
+    "tl_depend": []
+  },
+  {
+    "name": "ezedits",
+    "depend": [
+      "marginnote",
+      "pdfcomment",
+      "ulem"
     ],
     "tl_depend": []
   },
@@ -23928,6 +23958,19 @@
     "tl_depend": []
   },
   {
+    "name": "keytheorems",
+    "depend": [
+      "amscls",
+      "hyperref",
+      "oberdiek",
+      "refcount",
+      "tcolorbox",
+      "thmtools",
+      "translations"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "keyval2e",
     "depend": [
       "catoptions"
@@ -27092,6 +27135,7 @@
       "latex",
       "listings",
       "ltxcmds",
+      "lua-ul",
       "lualibs",
       "luaotfload",
       "luatexbase",
@@ -38589,7 +38633,6 @@
   {
     "name": "sidenotes",
     "depend": [
-      "amsmath",
       "bera",
       "caption",
       "changepage",
@@ -38603,9 +38646,7 @@
       "latex",
       "marginfix",
       "marginnote",
-      "mhchem",
       "microtype",
-      "morefloats",
       "psnfss",
       "ragged2e",
       "textcase",
@@ -39392,8 +39433,8 @@
       "kvoptions",
       "l3kernel",
       "latex",
-      "marginnote",
       "newfile",
+      "tools",
       "xcolor",
       "xkeyval"
     ],
@@ -47185,6 +47226,20 @@
     "tl_depend": [
       "tools",
       "zref-clever"
+    ]
+  },
+  {
+    "name": "zugferd",
+    "depend": [
+      "babel",
+      "booktabs",
+      "koma-script",
+      "ragged2e",
+      "siunitx",
+      "xltabular"
+    ],
+    "tl_depend": [
+      "siunitx"
     ]
   },
   {
