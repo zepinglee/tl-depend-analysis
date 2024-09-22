@@ -12893,10 +12893,12 @@
       "babel",
       "biblatex",
       "booktabs",
+      "caption",
       "ccicons",
       "cleveref",
       "csquotes",
       "diagbox",
+      "doclicense",
       "etoolbox",
       "graphics",
       "hypcap",
@@ -12917,6 +12919,7 @@
       "psnfss",
       "siunitx",
       "sttools",
+      "subfig",
       "tcolorbox",
       "tools",
       "upquote",
@@ -15064,7 +15067,8 @@
       "natbib",
       "newtx",
       "thmtools",
-      "tools"
+      "tools",
+      "zref"
     ],
     "tl_depend": []
   },
@@ -22287,6 +22291,7 @@
     "name": "iaria",
     "depend": [
       "biblatex",
+      "caption",
       "etoolbox",
       "graphics",
       "hyperref",
@@ -22307,6 +22312,7 @@
   {
     "name": "iaria-lite",
     "depend": [
+      "caption",
       "etoolbox",
       "graphics",
       "hyperref",
@@ -38002,6 +38008,7 @@
       "lua-widow-control",
       "microtype",
       "minted",
+      "mismath",
       "ntheorem",
       "ragged2e",
       "selnolig",
@@ -42353,7 +42360,9 @@
     "depend": [
       "listofitems",
       "pgf",
+      "randomlist",
       "simplekv",
+      "tikz-3dplot",
       "xint",
       "xstring"
     ],
