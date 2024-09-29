@@ -1405,7 +1405,9 @@
     "depend": [
       "amsmath",
       "pgf",
-      "pgfopts"
+      "pgfopts",
+      "tools",
+      "xcolor"
     ],
     "tl_depend": []
   },
@@ -2866,6 +2868,20 @@
       "firamath-otf",
       "latex",
       "pgf"
+    ],
+    "tl_depend": []
+  },
+  {
+    "name": "beamertheme-gotham",
+    "depend": [
+      "etoolbox",
+      "fontspec",
+      "iftex",
+      "l3kernel",
+      "l3packages",
+      "pgf",
+      "tools",
+      "xcolor"
     ],
     "tl_depend": []
   },
@@ -7294,6 +7310,7 @@
       "runtexshebang",
       "seetexk",
       "spix",
+      "sqltex",
       "srcredact",
       "sty2dtx",
       "synctex",
@@ -8824,6 +8841,7 @@
       "beamertheme-detlevcm",
       "beamertheme-epyt",
       "beamertheme-focus",
+      "beamertheme-gotham",
       "beamertheme-light",
       "beamertheme-metropolis",
       "beamertheme-npbt",
@@ -9906,6 +9924,7 @@
       "quotmark",
       "ran_toks",
       "randexam",
+      "randintlist",
       "randtext",
       "rccol",
       "rcs-multi",
@@ -23691,6 +23710,7 @@
   {
     "name": "jupynotex",
     "depend": [
+      "pgfopts",
       "tcolorbox"
     ],
     "tl_depend": []
@@ -25892,7 +25912,7 @@
       "graphics",
       "hyperref",
       "latex",
-      "url"
+      "xurl"
     ],
     "tl_depend": []
   },
@@ -26051,16 +26071,10 @@
   {
     "name": "litetable",
     "depend": [
-      "etoolbox",
-      "fontawesome5",
-      "fontspec",
-      "hyperref",
-      "kvoptions",
-      "libertine",
-      "newtx",
-      "psnfss",
-      "standalone",
-      "xecjk"
+      "latex",
+      "listofitems",
+      "pgf",
+      "xcolor"
     ],
     "tl_depend": []
   },
@@ -28792,9 +28806,12 @@
       "ifplatform",
       "kvoptions",
       "latex",
+      "latex2pydata",
       "lineno",
       "newfloat",
       "pdftexcmds",
+      "pgf",
+      "pgfopts",
       "tools",
       "xcolor",
       "xstring"
@@ -28803,18 +28820,15 @@
       "catchfile",
       "etoolbox",
       "float",
-      "framed",
       "fvextra",
-      "graphics",
-      "ifplatform",
-      "kvoptions",
-      "lineno",
+      "latex2pydata",
+      "minted.ARCH",
       "newfloat",
       "pdftexcmds",
+      "pgf",
+      "pgfopts",
       "tools",
-      "upquote",
-      "xcolor",
-      "xstring"
+      "xcolor"
     ]
   },
   {
@@ -36000,6 +36014,18 @@
     "tl_depend": []
   },
   {
+    "name": "randintlist",
+    "depend": [
+      "latex",
+      "listofitems",
+      "randomlist",
+      "simplekv",
+      "xint",
+      "xstring"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "random",
     "depend": [],
     "tl_depend": []
@@ -39557,6 +39583,13 @@
     "name": "spverbatim",
     "depend": [],
     "tl_depend": []
+  },
+  {
+    "name": "sqltex",
+    "depend": [],
+    "tl_depend": [
+      "sqltex.ARCH"
+    ]
   },
   {
     "name": "sr-vorl",
@@ -43554,13 +43587,15 @@
   {
     "name": "tutodoc",
     "depend": [
-      "amscls",
       "clrstrip",
       "csquotes",
+      "fontawesome5",
       "geometry",
       "hyperref",
+      "keytheorems",
       "koma-script",
       "marginnote",
+      "minted",
       "tcolorbox",
       "titlesec",
       "xcolor"
