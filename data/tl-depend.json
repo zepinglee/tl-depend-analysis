@@ -390,15 +390,18 @@
   {
     "name": "adforn",
     "depend": [
-      "psnfss"
+      "l3kernel",
+      "l3packages",
+      "svn-prov"
     ],
     "tl_depend": []
   },
   {
     "name": "adfsymbols",
     "depend": [
-      "fp",
-      "psnfss"
+      "l3kernel",
+      "l3packages",
+      "svn-prov"
     ],
     "tl_depend": []
   },
@@ -2550,11 +2553,11 @@
     "tl_depend": []
   },
   {
-    "name": "baskervald",
+    "name": "baskervaldadf",
     "depend": [
       "latex",
       "nfssext-cfr",
-      "xkeyval"
+      "svn-prov"
     ],
     "tl_depend": []
   },
@@ -3231,7 +3234,7 @@
     "depend": [
       "latex",
       "nfssext-cfr",
-      "xkeyval"
+      "svn-prov"
     ],
     "tl_depend": []
   },
@@ -5654,9 +5657,10 @@
   {
     "name": "cfr-lm",
     "depend": [
+      "l3packages",
       "latex",
       "nfssext-cfr",
-      "xkeyval"
+      "svn-prov"
     ],
     "tl_depend": []
   },
@@ -7410,7 +7414,7 @@
       "aurical",
       "b1encoding",
       "barcodes",
-      "baskervald",
+      "baskervaldadf",
       "baskervaldx",
       "baskervillef",
       "bbding",
@@ -7507,7 +7511,7 @@
       "eiad",
       "eiad-ltx",
       "ektype-tanka",
-      "electrum",
+      "electrumadf",
       "elvish",
       "epigrafica",
       "epsdice",
@@ -7680,7 +7684,7 @@
       "recycle",
       "rit-fonts",
       "roboto",
-      "romande",
+      "romandeadf",
       "rosario",
       "rsfso",
       "ruscap",
@@ -8999,6 +9003,7 @@
       "combine",
       "comma",
       "commado",
+      "commalists-tools",
       "commedit",
       "comment",
       "commonunicode",
@@ -11510,6 +11515,7 @@
       "h2020proposal",
       "hagenberg-thesis",
       "har2nat",
+      "hduthesis",
       "hecthese",
       "hep-paper",
       "heria",
@@ -11673,6 +11679,7 @@
       "ucthesis",
       "udepcolor",
       "udes-genie-these",
+      "udiss",
       "uestcthesis",
       "ufrgscca",
       "uhhassignment",
@@ -12010,6 +12017,15 @@
   {
     "name": "commado",
     "depend": [],
+    "tl_depend": []
+  },
+  {
+    "name": "commalists-tools",
+    "depend": [
+      "listofitems",
+      "xint",
+      "xstring"
+    ],
     "tl_depend": []
   },
   {
@@ -13861,7 +13877,7 @@
     "depend": [
       "atbegshi",
       "babel",
-      "baskervald",
+      "baskervaldadf",
       "baskervillef",
       "booktabs",
       "caption",
@@ -15082,6 +15098,7 @@
       "ctex",
       "etoolbox",
       "hyperref",
+      "keytheorems",
       "l3packages",
       "natbib",
       "newtx",
@@ -15569,11 +15586,11 @@
     "tl_depend": []
   },
   {
-    "name": "electrum",
+    "name": "electrumadf",
     "depend": [
       "latex",
       "nfssext-cfr",
-      "xkeyval"
+      "svn-prov"
     ],
     "tl_depend": []
   },
@@ -20503,6 +20520,37 @@
       "psnfss",
       "tools",
       "truncate"
+    ],
+    "tl_depend": []
+  },
+  {
+    "name": "hduthesis",
+    "depend": [
+      "amsfonts",
+      "amsmath",
+      "biblatex",
+      "booktabs",
+      "cancel",
+      "caption",
+      "circuitikz",
+      "cleveref",
+      "ctex",
+      "derivative",
+      "enumitem",
+      "extarrows",
+      "fancyhdr",
+      "fixdif",
+      "geometry",
+      "latex",
+      "lipsum",
+      "listings",
+      "mathtools",
+      "pgfplots",
+      "physics2",
+      "siunitx",
+      "tocloft",
+      "tools",
+      "zhlipsum"
     ],
     "tl_depend": []
   },
@@ -25691,7 +25739,8 @@
     "name": "libris",
     "depend": [
       "latex",
-      "nfssext-cfr"
+      "nfssext-cfr",
+      "svn-prov"
     ],
     "tl_depend": []
   },
@@ -26071,10 +26120,9 @@
   {
     "name": "litetable",
     "depend": [
+      "l3packages",
       "latex",
-      "listofitems",
-      "pgf",
-      "xcolor"
+      "pgf"
     ],
     "tl_depend": []
   },
@@ -30310,6 +30358,9 @@
   {
     "name": "nfssext-cfr",
     "depend": [
+      "etoolbox",
+      "l3kernel",
+      "l3packages",
       "latex",
       "svn-prov"
     ],
@@ -32562,7 +32613,8 @@
       "etoolbox",
       "luacode",
       "luakeys",
-      "penlight"
+      "penlight",
+      "tokcycle"
     ],
     "tl_depend": []
   },
@@ -34081,7 +34133,6 @@
       "lualinalg",
       "luamplib",
       "mathtools",
-      "minted",
       "mleftright",
       "modulus",
       "nicematrix",
@@ -36787,11 +36838,11 @@
     "tl_depend": []
   },
   {
-    "name": "romande",
+    "name": "romandeadf",
     "depend": [
       "latex",
       "nfssext-cfr",
-      "xkeyval"
+      "svn-prov"
     ],
     "tl_depend": []
   },
@@ -38736,6 +38787,7 @@
     "name": "sim-os-menus",
     "depend": [
       "fontawesome5",
+      "forest",
       "listofitems",
       "oberdiek",
       "pgf",
@@ -43991,6 +44043,24 @@
     "tl_depend": []
   },
   {
+    "name": "udiss",
+    "depend": [
+      "babel",
+      "csquotes",
+      "doclicense",
+      "expkv-bundle",
+      "graphics",
+      "hyperref",
+      "hyperxmp",
+      "iftex",
+      "memoir",
+      "oberdiek",
+      "unicode-math",
+      "xcolor"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "uebungsblatt",
     "depend": [
       "akktex",
@@ -45231,7 +45301,7 @@
     "depend": [
       "latex",
       "nfssext-cfr",
-      "xkeyval"
+      "svn-prov"
     ],
     "tl_depend": []
   },
