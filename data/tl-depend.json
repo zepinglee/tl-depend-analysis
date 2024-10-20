@@ -7540,6 +7540,7 @@
       "fontawesome5",
       "fontmfizz",
       "fonts-churchslavonic",
+      "fontscripts",
       "forum",
       "fourier",
       "fouriernc",
@@ -10710,6 +10711,7 @@
       "nicematrix",
       "nuc",
       "nucleardata",
+      "numbersets",
       "numerica",
       "numerica-plus",
       "numerica-tables",
@@ -10789,6 +10791,7 @@
       "synproof",
       "t-angles",
       "tablor",
+      "temporal-logic",
       "tensind",
       "tensor",
       "tex-ewd",
@@ -10848,6 +10851,7 @@
       "mfpic",
       "mfpic4ode",
       "minim-hatching",
+      "mp-geom2d",
       "mp3d",
       "mparrows",
       "mpattern",
@@ -11082,6 +11086,7 @@
       "spath3",
       "spectralsequences",
       "strands",
+      "sunpath",
       "swimgraf",
       "syntaxdi",
       "table-fct",
@@ -11093,6 +11098,7 @@
       "tikz-bayesnet",
       "tikz-bbox",
       "tikz-cd",
+      "tikz-decofonts",
       "tikz-dependency",
       "tikz-dimline",
       "tikz-ext",
@@ -11643,6 +11649,7 @@
       "spie",
       "sr-vorl",
       "srdp-mathematik",
+      "sshrc-insight",
       "stellenbosch",
       "stellenbosch-2",
       "suftesi",
@@ -14787,6 +14794,7 @@
       "pdfescape",
       "picture",
       "ragged2e",
+      "scrhack",
       "selnolig",
       "splitindex",
       "tools",
@@ -18316,6 +18324,11 @@
   },
   {
     "name": "fontscale",
+    "depend": [],
+    "tl_depend": []
+  },
+  {
+    "name": "fontscripts",
     "depend": [],
     "tl_depend": []
   },
@@ -22694,6 +22707,7 @@
       "nth",
       "paralist",
       "pdfpages",
+      "scrhack",
       "setspace",
       "siunitx",
       "tools",
@@ -23122,6 +23136,7 @@
       "mathtools",
       "microtype",
       "pgfopts",
+      "scrhack",
       "setspace",
       "siunitx",
       "tcolorbox",
@@ -24221,6 +24236,7 @@
       "blindtext",
       "bookmark",
       "booktabs",
+      "contract",
       "etoolbox",
       "geometry",
       "graphics",
@@ -24232,6 +24248,7 @@
       "lm",
       "marginnote",
       "mparhack",
+      "mwe",
       "oberdiek",
       "pgf",
       "pict2e",
@@ -27292,7 +27309,9 @@
   },
   {
     "name": "luaxml",
-    "depend": [],
+    "depend": [
+      "luacode"
+    ],
     "tl_depend": []
   },
   {
@@ -29440,6 +29459,11 @@
     "tl_depend": []
   },
   {
+    "name": "mp-geom2d",
+    "depend": [],
+    "tl_depend": []
+  },
+  {
     "name": "mp3d",
     "depend": [],
     "tl_depend": []
@@ -30620,11 +30644,11 @@
       "hologo",
       "hyperref",
       "iftex",
-      "koma-script",
       "latex",
       "luatex85",
       "mfirstuc",
       "psnfss",
+      "scrhack",
       "tcolorbox",
       "tex4ht",
       "tools",
@@ -30783,10 +30807,10 @@
   {
     "name": "notebeamer",
     "depend": [
-      "geometry",
+      "l3experimental",
+      "l3packages",
       "pgf",
-      "tools",
-      "xkeyval"
+      "tikzpagenodes"
     ],
     "tl_depend": []
   },
@@ -30992,6 +31016,11 @@
       "l3kernel",
       "l3packages"
     ],
+    "tl_depend": []
+  },
+  {
+    "name": "numbersets",
+    "depend": [],
     "tl_depend": []
   },
   {
@@ -37774,6 +37803,7 @@
       "pgfopts",
       "ragged2e",
       "refcount",
+      "scrhack",
       "setspace",
       "silence",
       "standalone",
@@ -39755,6 +39785,24 @@
     "tl_depend": []
   },
   {
+    "name": "sshrc-insight",
+    "depend": [
+      "biblatex-readbbl",
+      "fontspec",
+      "geometry",
+      "iftex",
+      "latex",
+      "newtx",
+      "nopageno",
+      "subfiles",
+      "tokcycle",
+      "translations",
+      "ulem",
+      "xcolor"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "sslides",
     "depend": [
       "latex"
@@ -40312,6 +40360,14 @@
       "hyperref",
       "latex",
       "url"
+    ],
+    "tl_depend": []
+  },
+  {
+    "name": "sunpath",
+    "depend": [
+      "l3kernel",
+      "pgf"
     ],
     "tl_depend": []
   },
@@ -41067,6 +41123,16 @@
       "fontaxes",
       "latex",
       "xkeyval"
+    ],
+    "tl_depend": []
+  },
+  {
+    "name": "temporal-logic",
+    "depend": [
+      "amsmath",
+      "l3kernel",
+      "l3packages",
+      "pgf"
     ],
     "tl_depend": []
   },
@@ -42188,6 +42254,16 @@
     "name": "tikz-cd",
     "depend": [
       "pgf"
+    ],
+    "tl_depend": []
+  },
+  {
+    "name": "tikz-decofonts",
+    "depend": [
+      "pgf",
+      "simplekv",
+      "xint",
+      "xstring"
     ],
     "tl_depend": []
   },
@@ -43495,6 +43571,7 @@
       "pgf",
       "quoting",
       "ragged2e",
+      "scrhack",
       "scrwfile",
       "setspace",
       "todonotes",
