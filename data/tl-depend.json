@@ -7372,6 +7372,7 @@
       "context-calendar-examples",
       "context-chat",
       "context-collating-marks",
+      "context-companion-fonts",
       "context-cyrillicnumbers",
       "context-filter",
       "context-gnuplot",
@@ -7488,7 +7489,6 @@
       "comicneue",
       "concmath-fonts",
       "concmath-otf",
-      "context-companion-fonts",
       "cookingsymbols",
       "cooperhewitt",
       "cormorantgaramond",
@@ -7940,6 +7940,7 @@
       "expex",
       "expex-glossonly",
       "gb4e",
+      "gb4e-next",
       "gmverse",
       "interlinear",
       "jura",
@@ -9228,6 +9229,7 @@
       "engrec",
       "enotez",
       "ensps-colorscheme",
+      "enumext",
       "enumitem",
       "enumitem-zref",
       "envbig",
@@ -16068,6 +16070,14 @@
     "tl_depend": []
   },
   {
+    "name": "enumext",
+    "depend": [
+      "scontents",
+      "tools"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "enumitem",
     "depend": [],
     "tl_depend": []
@@ -18994,6 +19004,13 @@
     "tl_depend": []
   },
   {
+    "name": "gb4e-next",
+    "depend": [
+      "gb4e"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "gbt7714",
     "depend": [
       "natbib",
@@ -21547,10 +21564,12 @@
       "paralist",
       "pgf",
       "pgfopts",
+      "psnfss",
       "ragged2e",
       "setspace",
       "svg",
       "textpos",
+      "titlesec",
       "titling",
       "tools",
       "wrapfig",
@@ -24978,6 +24997,7 @@
       "etoolbox",
       "graphics",
       "l3experimental",
+      "luamml",
       "pdfmanagement-testphase",
       "tagpdf",
       "tools"
@@ -27763,6 +27783,7 @@
       "amsmath",
       "catchfile",
       "csvsimple",
+      "enumitem",
       "fancyvrb",
       "gobble",
       "graphics",
@@ -27770,11 +27791,14 @@
       "l3kernel",
       "latex",
       "ltxcmds",
+      "lua-ul",
       "lua-uni-algos",
+      "luacolor",
       "paralist",
       "soul",
       "url",
-      "verse"
+      "verse",
+      "xcolor"
     ],
     "tl_depend": [
       "l3kernel",
@@ -33373,6 +33397,7 @@
     "depend": [
       "csvsimple",
       "l3kernel",
+      "latex",
       "listofitems",
       "pgf",
       "simplekv",
@@ -34193,6 +34218,7 @@
       "commalists-tools",
       "datetime2",
       "esvect",
+      "etoolbox",
       "fancyvrb",
       "fontawesome5",
       "hologo",
@@ -34357,7 +34383,6 @@
     "depend": [
       "amsfonts",
       "amsmath",
-      "etoolbox",
       "forest",
       "svn-prov"
     ],
@@ -37056,11 +37081,14 @@
     "name": "rub-kunstgeschichte",
     "depend": [
       "biblatex",
+      "boxedminipage",
       "geometry",
       "hyperref",
       "latex",
       "parskip",
-      "setspace"
+      "setspace",
+      "tools",
+      "translations"
     ],
     "tl_depend": []
   },
@@ -43010,6 +43038,7 @@
       "latex",
       "listofitems",
       "pgf",
+      "pgfplots",
       "simplekv",
       "siunitx",
       "xint",
@@ -43765,7 +43794,6 @@
       "hyperref",
       "keytheorems",
       "koma-script",
-      "latex",
       "marginnote",
       "minted",
       "tcolorbox",
@@ -46642,6 +46670,7 @@
   {
     "name": "xltabular",
     "depend": [
+      "etoolbox",
       "ltablex",
       "tools"
     ],
