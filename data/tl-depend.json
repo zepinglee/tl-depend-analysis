@@ -1410,8 +1410,10 @@
     "name": "argumentation",
     "depend": [
       "amsmath",
+      "etoolbox",
       "pgf",
       "pgfopts",
+      "refcount",
       "tools",
       "xcolor"
     ],
@@ -9512,6 +9514,7 @@
       "indextools",
       "inline-images",
       "inlinedef",
+      "inlinegraphicx",
       "inlinelabel",
       "inputenx",
       "inputtrc",
@@ -11617,6 +11620,7 @@
       "nostarch",
       "novel",
       "nrc",
+      "nstc-proposal",
       "nwafuthesis",
       "nwejm",
       "nxuthesis",
@@ -11637,6 +11641,7 @@
       "ptptex",
       "qrbill",
       "quantumarticle",
+      "rebuttal",
       "regulatory",
       "resphilosophica",
       "resumecls",
@@ -22958,6 +22963,15 @@
     "tl_depend": []
   },
   {
+    "name": "inlinegraphicx",
+    "depend": [
+      "graphics",
+      "simplekv",
+      "tools"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "inlinelabel",
     "depend": [
       "amsmath",
@@ -31015,6 +31029,28 @@
     "tl_depend": []
   },
   {
+    "name": "nstc-proposal",
+    "depend": [
+      "amscls",
+      "amsmath",
+      "cjk",
+      "fancyhdr",
+      "geometry",
+      "iftex",
+      "lastpage",
+      "latex",
+      "libertine",
+      "newtx",
+      "setspace",
+      "titlesec",
+      "unicode-math",
+      "xecjk",
+      "xifthen",
+      "zhnumber"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "ntgclass",
     "depend": [],
     "tl_depend": []
@@ -36328,6 +36364,24 @@
     "name": "realtranspose",
     "depend": [
       "graphics"
+    ],
+    "tl_depend": []
+  },
+  {
+    "name": "rebuttal",
+    "depend": [
+      "chngcntr",
+      "environ",
+      "etoolbox",
+      "marginnote",
+      "pdfcomment",
+      "pgf",
+      "soul",
+      "todonotes",
+      "tools",
+      "ulem",
+      "xcolor",
+      "xstring"
     ],
     "tl_depend": []
   },
