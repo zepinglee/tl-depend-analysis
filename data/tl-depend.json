@@ -5017,6 +5017,16 @@
     "tl_depend": []
   },
   {
+    "name": "bxcoloremoji",
+    "depend": [
+      "bxghost",
+      "etoolbox",
+      "graphics",
+      "twemojis"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "bxdpx-beamer",
     "depend": [],
     "tl_depend": []
@@ -5275,6 +5285,18 @@
   {
     "name": "calculator",
     "depend": [],
+    "tl_depend": []
+  },
+  {
+    "name": "calculatoritems",
+    "depend": [
+      "amsfonts",
+      "circledtext",
+      "simplekv",
+      "tcolorbox",
+      "tools",
+      "xstring"
+    ],
     "tl_depend": []
   },
   {
@@ -8498,6 +8520,7 @@
       "babel-japanese",
       "bxbase",
       "bxcjkjatype",
+      "bxcoloremoji",
       "bxghost",
       "bxjaholiday",
       "bxjalipsum",
@@ -8933,6 +8956,7 @@
       "calcage",
       "calctab",
       "calculator",
+      "calculatoritems",
       "calrsfs",
       "cals",
       "calxxxx-yyyy",
@@ -9785,6 +9809,7 @@
       "ninecolors",
       "nlctdoc",
       "noconflict",
+      "nodepthtext",
       "noindentafter",
       "noitcrul",
       "nolbreaks",
@@ -10012,6 +10037,7 @@
       "scale",
       "scalebar",
       "scalerel",
+      "scaletextbullet",
       "scanpages",
       "schedule",
       "schooldocs",
@@ -10107,6 +10133,7 @@
       "stdpage",
       "stealcaps",
       "stex",
+      "stocksize",
       "storebox",
       "storecmd",
       "stringstrings",
@@ -10294,6 +10321,7 @@
       "warpcol",
       "was",
       "webquiz",
+      "whatsnote",
       "widetable",
       "widows-and-orphans",
       "williams",
@@ -30707,9 +30735,11 @@
       "hologo",
       "hyperref",
       "iftex",
+      "koma-script",
       "latex",
       "luatex85",
       "mfirstuc",
+      "pgf",
       "psnfss",
       "scrhack",
       "tcolorbox",
@@ -30746,6 +30776,15 @@
   {
     "name": "noconflict",
     "depend": [],
+    "tl_depend": []
+  },
+  {
+    "name": "nodepthtext",
+    "depend": [
+      "graphics",
+      "tools",
+      "xstring"
+    ],
     "tl_depend": []
   },
   {
@@ -37482,6 +37521,11 @@
     "tl_depend": []
   },
   {
+    "name": "scaletextbullet",
+    "depend": [],
+    "tl_depend": []
+  },
+  {
     "name": "scanpages",
     "depend": [
       "etoolbox",
@@ -40185,6 +40229,13 @@
   {
     "name": "stmaryrd",
     "depend": [],
+    "tl_depend": []
+  },
+  {
+    "name": "stocksize",
+    "depend": [
+      "geometry"
+    ],
     "tl_depend": []
   },
   {
@@ -45872,6 +45923,44 @@
     "name": "weiqi",
     "depend": [
       "l3experimental"
+    ],
+    "tl_depend": []
+  },
+  {
+    "name": "whatsnote",
+    "depend": [
+      "amscls",
+      "amsfonts",
+      "booktabs",
+      "cancel",
+      "caption",
+      "circuitikz",
+      "cleveref",
+      "comment",
+      "ctex",
+      "derivative",
+      "enumitem",
+      "extarrows",
+      "fancyhdr",
+      "fixdif",
+      "fontawesome5",
+      "geometry",
+      "graphics",
+      "hyperref",
+      "latex",
+      "lipsum",
+      "mathtools",
+      "mdframed",
+      "multirow",
+      "nicematrix",
+      "pagecolor",
+      "pgfplots",
+      "physics2",
+      "siunitx",
+      "tasks",
+      "tools",
+      "xecjk",
+      "zhlipsum"
     ],
     "tl_depend": []
   },
