@@ -974,6 +974,14 @@
     "tl_depend": []
   },
   {
+    "name": "anima",
+    "depend": [
+      "pgf",
+      "standalone"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "animate",
     "depend": [
       "graphics",
@@ -7065,6 +7073,7 @@
       "enctex",
       "etex",
       "etex-pkg",
+      "extractbb",
       "glyphlist",
       "graphics-def",
       "hyph-utf8",
@@ -8837,6 +8846,7 @@
       "altfont",
       "altsubsup",
       "amsaddr",
+      "anima",
       "animate",
       "anonchap",
       "answers",
@@ -10223,6 +10233,7 @@
       "thumbs",
       "thumby",
       "ticket",
+      "timeop",
       "tipauni",
       "titlecaps",
       "titlefoot",
@@ -11346,6 +11357,7 @@
       "transparent-io",
       "treetex",
       "trigonometry",
+      "tuple",
       "ulem",
       "upca",
       "varisize",
@@ -11654,7 +11666,6 @@
       "nxuthesis",
       "onrannual",
       "opteng",
-      "osda",
       "oststud",
       "oup-authoring-template",
       "philosophersimprint",
@@ -15042,6 +15053,7 @@
     "depend": [],
     "tl_depend": [
       "dvipdfmx.ARCH",
+      "extractbb",
       "glyphlist",
       "texlive-scripts-extra"
     ]
@@ -17143,6 +17155,13 @@
       "xkeyval"
     ],
     "tl_depend": []
+  },
+  {
+    "name": "extractbb",
+    "depend": [],
+    "tl_depend": [
+      "extractbb.ARCH"
+    ]
   },
   {
     "name": "extsizes",
@@ -20634,26 +20653,33 @@
       "circuitikz",
       "cleveref",
       "ctex",
+      "datetime",
       "derivative",
       "enumitem",
+      "etoolbox",
       "extarrows",
       "fancyhdr",
       "fixdif",
+      "framed",
       "gbt7714",
       "geometry",
       "hologo",
       "hyperref",
-      "latex",
+      "l3kernel",
+      "libertine",
       "lipsum",
       "listings",
       "mathtools",
+      "menukeys",
+      "pdfpages",
+      "pgf",
       "pgfplots",
       "physics2",
       "setspace",
       "siunitx",
-      "titlesec",
       "tocloft",
       "tools",
+      "xecjk",
       "zhlipsum"
     ],
     "tl_depend": []
@@ -27823,16 +27849,13 @@
     "depend": [
       "amsfonts",
       "amsmath",
-      "catchfile",
       "csvsimple",
       "enumitem",
       "fancyvrb",
-      "gobble",
       "graphics",
-      "grffile",
       "l3kernel",
-      "latex",
       "ltxcmds",
+      "lua-tinyyaml",
       "lua-ul",
       "lua-uni-algos",
       "luacolor",
@@ -31694,20 +31717,6 @@
     "tl_depend": []
   },
   {
-    "name": "osda",
-    "depend": [
-      "footmisc",
-      "hyperref",
-      "latex",
-      "pgf",
-      "pgfopts",
-      "qrcode",
-      "sttools",
-      "xcolor"
-    ],
-    "tl_depend": []
-  },
-  {
     "name": "oststud",
     "depend": [
       "amsfonts",
@@ -31987,12 +31996,7 @@
     "name": "pageslts",
     "depend": [
       "alphalph",
-      "atveryend",
-      "everyshi",
       "kvoptions",
-      "letltxmacro",
-      "ltxcmds",
-      "rerunfilecheck",
       "undolabl"
     ],
     "tl_depend": []
@@ -42941,6 +42945,19 @@
     "tl_depend": []
   },
   {
+    "name": "timeop",
+    "depend": [
+      "amsmath",
+      "listofitems",
+      "simplekv",
+      "tabularray",
+      "tcolorbox",
+      "xint",
+      "xstring"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "times",
     "depend": [],
     "tl_depend": []
@@ -43835,6 +43852,11 @@
     "tl_depend": []
   },
   {
+    "name": "tuple",
+    "depend": [],
+    "tl_depend": []
+  },
+  {
     "name": "turabian",
     "depend": [
       "babel",
@@ -43881,11 +43903,10 @@
   {
     "name": "turnthepage",
     "depend": [
-      "alphalph",
       "atbegshi",
-      "pageslts",
-      "picture",
-      "zref"
+      "atveryend",
+      "everyshi",
+      "picture"
     ],
     "tl_depend": []
   },
