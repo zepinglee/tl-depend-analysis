@@ -3552,6 +3552,11 @@
     "tl_depend": []
   },
   {
+    "name": "biblatex-accursius",
+    "depend": [],
+    "tl_depend": []
+  },
+  {
     "name": "biblatex-ajc2020unofficial",
     "depend": [],
     "tl_depend": []
@@ -8504,6 +8509,7 @@
       "amsthdoc-it",
       "antanilipsum",
       "babel-italian",
+      "biblatex-accursius",
       "codicefiscaleitaliano",
       "collection-basic",
       "fancyhdr-it",
@@ -9651,8 +9657,6 @@
       "listlbls",
       "listliketab",
       "listofsymbols",
-      "litebook",
-      "litesolution",
       "litetable",
       "lkproof",
       "lmake",
@@ -10690,6 +10694,7 @@
       "eqexpl",
       "eqnarray",
       "eqnnumwarn",
+      "euclidean-lattice",
       "euclideangeometry",
       "extarrows",
       "extpfeil",
@@ -10859,7 +10864,6 @@
       "textopo",
       "thermodynamics",
       "thmbox",
-      "thmlist",
       "thmtools",
       "tiscreen",
       "turnstile",
@@ -16669,6 +16673,13 @@
     "tl_depend": []
   },
   {
+    "name": "euclidean-lattice",
+    "depend": [
+      "pgf"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "euclideangeometry",
     "depend": [
       "curve2e"
@@ -20646,7 +20657,6 @@
     "name": "hduthesis",
     "depend": [
       "amsfonts",
-      "amsmath",
       "booktabs",
       "cancel",
       "caption",
@@ -20666,11 +20676,13 @@
       "hologo",
       "hyperref",
       "l3kernel",
+      "latex",
       "libertine",
       "lipsum",
       "listings",
       "mathtools",
       "menukeys",
+      "parskip",
       "pdfpages",
       "pgf",
       "pgfplots",
@@ -20679,6 +20691,8 @@
       "siunitx",
       "tocloft",
       "tools",
+      "twemojis",
+      "unicode-math",
       "xecjk",
       "zhlipsum"
     ],
@@ -20843,8 +20857,8 @@
       "l3packages",
       "pgf",
       "pgfplots",
-      "standalone",
-      "tikz-feynman"
+      "tikz-feynman",
+      "tikzscale"
     ],
     "tl_depend": []
   },
@@ -20894,6 +20908,7 @@
       "hep-reference",
       "hep-text",
       "hep-title",
+      "hyperref",
       "kvoptions",
       "parskip",
       "pdftexcmds",
@@ -26155,110 +26170,6 @@
       "latex",
       "nomencl",
       "tools"
-    ],
-    "tl_depend": []
-  },
-  {
-    "name": "litebook",
-    "depend": [
-      "amsfonts",
-      "anyfontsize",
-      "booktabs",
-      "cancel",
-      "caption",
-      "ctex",
-      "datetime",
-      "derivative",
-      "diagbox",
-      "enumitem",
-      "esvect",
-      "etoolbox",
-      "extarrows",
-      "fadingimage",
-      "fancyhdr",
-      "fixdif",
-      "fontawesome5",
-      "fontspec",
-      "geometry",
-      "graphics",
-      "hologo",
-      "hyperref",
-      "iftex",
-      "kvoptions",
-      "latex",
-      "libertine",
-      "lipsum",
-      "multirow",
-      "newtx",
-      "nicematrix",
-      "pgf",
-      "physics2",
-      "refstyle",
-      "setspace",
-      "siunitx",
-      "thmlist",
-      "tocloft",
-      "tools",
-      "units",
-      "xcolor",
-      "zhlipsum"
-    ],
-    "tl_depend": []
-  },
-  {
-    "name": "litesolution",
-    "depend": [
-      "amscls",
-      "amsfonts",
-      "anyfontsize",
-      "booktabs",
-      "cancel",
-      "caption",
-      "circuitikz",
-      "comment",
-      "datetime",
-      "derivative",
-      "diagbox",
-      "enumitem",
-      "esvect",
-      "etoolbox",
-      "extarrows",
-      "fadingimage",
-      "fancyhdr",
-      "fixdif",
-      "fontawesome5",
-      "graphics",
-      "hologo",
-      "hyperref",
-      "iftex",
-      "jknapltx",
-      "kvoptions",
-      "latex",
-      "libertine",
-      "lipsum",
-      "magicwatermark",
-      "mathtools",
-      "mhchem",
-      "newtx",
-      "newtxsf",
-      "nicematrix",
-      "notebeamer",
-      "pagecolor",
-      "paracol",
-      "pgfplots",
-      "physics2",
-      "qrcode",
-      "refstyle",
-      "setspace",
-      "siunitx",
-      "soul",
-      "tasks",
-      "tocloft",
-      "tools",
-      "ulem",
-      "xecjk",
-      "xfrac",
-      "zhlipsum"
     ],
     "tl_depend": []
   },
@@ -42129,16 +42040,6 @@
     "tl_depend": []
   },
   {
-    "name": "thmlist",
-    "depend": [
-      "amscls",
-      "listofitems",
-      "mdframed",
-      "pgf"
-    ],
-    "tl_depend": []
-  },
-  {
     "name": "thmtools",
     "depend": [
       "carlisle",
@@ -43121,9 +43022,7 @@
   },
   {
     "name": "tkz-elements",
-    "depend": [
-      "luacode"
-    ],
+    "depend": [],
     "tl_depend": []
   },
   {
@@ -45648,8 +45547,10 @@
     "depend": [
       "amsfonts",
       "enumitem",
+      "fp",
       "l3packages",
       "pgf",
+      "randomlist",
       "ulem",
       "xkeyval"
     ],
@@ -45950,7 +45851,6 @@
   {
     "name": "whatsnote",
     "depend": [
-      "amscls",
       "amsfonts",
       "booktabs",
       "cancel",
@@ -45968,6 +45868,7 @@
       "geometry",
       "graphics",
       "hyperref",
+      "keytheorems",
       "latex",
       "lipsum",
       "mathtools",
@@ -47643,7 +47544,10 @@
       "oberdiek",
       "zref"
     ],
-    "tl_depend": []
+    "tl_depend": [
+      "oberdiek",
+      "zref"
+    ]
   },
   {
     "name": "zref-vario",
