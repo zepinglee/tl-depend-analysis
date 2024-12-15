@@ -9479,6 +9479,7 @@
       "graphicx-psmin",
       "graphicxbox",
       "graphpaper",
+      "gratzer-color-scheme",
       "grayhints",
       "grfpaste",
       "grid",
@@ -10558,6 +10559,7 @@
       "luatexbase",
       "luatexko",
       "luatextra",
+      "luatikz",
       "luatruthtable",
       "luavlna",
       "luaxml",
@@ -12658,6 +12660,10 @@
     "name": "cora-macs",
     "depend": [
       "amsfonts",
+      "graphics",
+      "mathtools",
+      "pgfplots",
+      "tikzscale",
       "xcolor",
       "xifthen",
       "xstring"
@@ -20006,6 +20012,14 @@
     "tl_depend": []
   },
   {
+    "name": "gratzer-color-scheme",
+    "depend": [
+      "amscls",
+      "xcolor"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "grayhints",
     "depend": [],
     "tl_depend": []
@@ -27308,6 +27322,13 @@
     "tl_depend": []
   },
   {
+    "name": "luatikz",
+    "depend": [
+      "luacode"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "luatodonotes",
     "depend": [
       "atbegshi",
@@ -31916,7 +31937,6 @@
     "name": "pageslts",
     "depend": [
       "alphalph",
-      "kvoptions",
       "undolabl"
     ],
     "tl_depend": []
@@ -42686,7 +42706,12 @@
       "l3kernel",
       "pgf"
     ],
-    "tl_depend": []
+    "tl_depend": [
+      "epstopdf-pkg",
+      "iftex",
+      "pgf",
+      "pgf-blur"
+    ]
   },
   {
     "name": "tikzmark",
