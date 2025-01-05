@@ -270,8 +270,8 @@
       "preprint",
       "refcount",
       "setspace",
-      "textcase",
       "totpages",
+      "unicode-math",
       "xcolor",
       "xkeyval",
       "xstring",
@@ -514,21 +514,6 @@
     "tl_depend": [
       "afm2pl.ARCH"
     ]
-  },
-  {
-    "name": "afparticle",
-    "depend": [
-      "apacite",
-      "booktabs",
-      "caption",
-      "elsarticle",
-      "fancyhdr",
-      "graphics",
-      "hyperref",
-      "lastpage",
-      "xkeyval"
-    ],
-    "tl_depend": []
   },
   {
     "name": "afthesis",
@@ -3648,6 +3633,11 @@
     "tl_depend": []
   },
   {
+    "name": "biblatex-cse",
+    "depend": [],
+    "tl_depend": []
+  },
+  {
     "name": "biblatex-cv",
     "depend": [
       "biblatex",
@@ -6279,6 +6269,16 @@
     ]
   },
   {
+    "name": "chuushaku",
+    "depend": [
+      "amsmath",
+      "framed",
+      "pgf",
+      "tools"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "cidarticle",
     "depend": [
       "amsmath",
@@ -7152,6 +7152,7 @@
       "biblatex-chem",
       "biblatex-chicago",
       "biblatex-claves",
+      "biblatex-cse",
       "biblatex-cv",
       "biblatex-dw",
       "biblatex-enc",
@@ -8545,6 +8546,7 @@
       "bxjscls",
       "bxorigcapt",
       "bxwareki",
+      "chuushaku",
       "collection-langcjk",
       "convbkmk",
       "endnotesj",
@@ -10556,6 +10558,7 @@
       "luaquotes",
       "luarandom",
       "luaset",
+      "luatbls",
       "luatex85",
       "luatexbase",
       "luatexko",
@@ -10664,6 +10667,7 @@
       "commath",
       "commutative-diagrams",
       "complexity",
+      "complexpolylongdiv",
       "computational-complexity",
       "concmath",
       "concrete",
@@ -10961,6 +10965,7 @@
       "harmony",
       "latex4musicians",
       "leadsheets",
+      "liederbuch",
       "lilyglyphs",
       "lyluatex",
       "m-tx",
@@ -11509,7 +11514,6 @@
       "acmconf",
       "active-conf",
       "adfathesis",
-      "afparticle",
       "afthesis",
       "aguplus",
       "aiaa",
@@ -12174,6 +12178,11 @@
     "depend": [
       "latex"
     ],
+    "tl_depend": []
+  },
+  {
+    "name": "complexpolylongdiv",
+    "depend": [],
     "tl_depend": []
   },
   {
@@ -17746,12 +17755,9 @@
       "xcolor"
     ],
     "tl_depend": [
-      "environ",
-      "microtype",
-      "minted",
-      "pgf",
-      "tcolorbox",
-      "xkeyval"
+      "listings",
+      "pgfopts",
+      "tcolorbox"
     ]
   },
   {
@@ -20681,6 +20687,8 @@
     "name": "hduthesis",
     "depend": [
       "amsfonts",
+      "anyfontsize",
+      "biblatex",
       "booktabs",
       "cancel",
       "caption",
@@ -20691,14 +20699,17 @@
       "derivative",
       "dirtree",
       "enumitem",
+      "esvect",
       "etoolbox",
       "fancyhdr",
       "fixdif",
       "framed",
       "gbt7714",
       "geometry",
+      "graphics",
       "hologo",
       "hyperref",
+      "keytheorems",
       "l3kernel",
       "latex",
       "libertine",
@@ -20706,11 +20717,13 @@
       "listings",
       "mathtools",
       "menukeys",
+      "nicematrix",
       "parskip",
       "pdfpages",
       "pgf",
       "pgfplots",
       "physics2",
+      "ragged2e",
       "setspace",
       "siunitx",
       "tasks",
@@ -24114,24 +24127,23 @@
       "latex",
       "microtype",
       "pgf",
+      "pgfopts",
       "setspace",
       "textpos",
       "tools",
-      "xcolor",
-      "xkeyval"
+      "xcolor"
     ],
     "tl_depend": [
       "anyfontsize",
+      "etoolbox",
       "geometry",
-      "graphics",
+      "iexec",
       "microtype",
       "pgf",
+      "pgfopts",
       "setspace",
       "textpos",
-      "tools",
-      "xcolor",
-      "xifthen",
-      "xkeyval"
+      "xcolor"
     ]
   },
   {
@@ -25941,6 +25953,17 @@
     "tl_depend": []
   },
   {
+    "name": "liederbuch",
+    "depend": [
+      "environ",
+      "etoolbox",
+      "hyperref",
+      "l3packages",
+      "pgf"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "liftarm",
     "depend": [
       "pgf",
@@ -27243,6 +27266,15 @@
       "psnfss",
       "tools",
       "xkeyval"
+    ],
+    "tl_depend": []
+  },
+  {
+    "name": "luatbls",
+    "depend": [
+      "luacode",
+      "luakeys",
+      "penlightplus"
     ],
     "tl_depend": []
   },
@@ -47239,7 +47271,6 @@
       "lastpage",
       "latex",
       "libertine",
-      "lm",
       "mdframed",
       "microtype",
       "paralist",
@@ -47260,24 +47291,31 @@
       "bigfoot",
       "changepage",
       "chngcntr",
+      "collection-fontsextra",
+      "collection-fontsrecommended",
       "csquotes",
+      "cyrillic",
       "enumitem",
       "fancyhdr",
       "float",
       "footmisc",
       "geometry",
+      "hypdoc",
       "ifmtarg",
       "imakeidx",
       "lastpage",
+      "lh",
       "libertine",
       "mdframed",
       "microtype",
       "needspace",
       "paralist",
       "pgf",
+      "pgfopts",
       "qrcode",
       "setspace",
       "soul",
+      "textpos",
       "titlesec",
       "titlesec",
       "ulem",
