@@ -1771,6 +1771,15 @@
     "tl_depend": []
   },
   {
+    "name": "atableau",
+    "depend": [
+      "amsfonts",
+      "l3packages",
+      "pgf"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "atbegshi",
     "depend": [
       "iftex",
@@ -7983,6 +7992,7 @@
       "sudokubundle",
       "tangramtikz",
       "thematicpuzzle",
+      "tikz-triminos",
       "trivialpursuit",
       "twoxtwogame",
       "wargame",
@@ -8584,6 +8594,7 @@
       "chuushaku",
       "collection-langcjk",
       "convbkmk",
+      "convert-jpfonts",
       "endnotesj",
       "gckanbun",
       "gentombow",
@@ -10638,6 +10649,7 @@
       "truthtable",
       "tsvtemplate",
       "typewriter",
+      "unibidi-lua",
       "uninormalize",
       "yamlvars"
     ]
@@ -10661,6 +10673,7 @@
       "amstex",
       "annotate-equations",
       "apxproof",
+      "atableau",
       "autobreak",
       "axodraw2",
       "backnaur",
@@ -11170,6 +11183,7 @@
       "postage",
       "postit",
       "prerex",
+      "prisma-flow-diagram",
       "productbox",
       "ptolemaicastronomy",
       "puyotikz",
@@ -12567,6 +12581,15 @@
     ]
   },
   {
+    "name": "convert-jpfonts",
+    "depend": [
+      "l3packages",
+      "latex",
+      "tools"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "cooking",
     "depend": [],
     "tl_depend": []
@@ -13092,13 +13115,14 @@
       "orcidlink",
       "paralist",
       "pbalance",
-      "pdfcomment",
       "pdflscape",
       "psnfss",
+      "relsize",
       "siunitx",
       "sttools",
       "subfig",
       "tcolorbox",
+      "todonotes",
       "tools",
       "upquote",
       "url",
@@ -13231,7 +13255,8 @@
       "amsmath",
       "cleveref",
       "enumitem",
-      "thmtools"
+      "thmtools",
+      "xcolor"
     ],
     "tl_depend": []
   },
@@ -22634,6 +22659,7 @@
       "graphics",
       "hyperref",
       "ieeetran",
+      "ncctools",
       "orcidlink",
       "pbalance",
       "psnfss",
@@ -32682,6 +32708,7 @@
     "depend": [
       "count1to",
       "eso-pic",
+      "etoolbox",
       "graphics",
       "latex",
       "pdflscape",
@@ -33908,8 +33935,8 @@
   {
     "name": "pmdraw",
     "depend": [
-      "graphics",
-      "pgf"
+      "pgf",
+      "xkeyval"
     ],
     "tl_depend": []
   },
@@ -34338,6 +34365,15 @@
   {
     "name": "printlen",
     "depend": [],
+    "tl_depend": []
+  },
+  {
+    "name": "prisma-flow-diagram",
+    "depend": [
+      "float",
+      "graphics",
+      "pgf"
+    ],
     "tl_depend": []
   },
   {
@@ -42813,6 +42849,19 @@
     "tl_depend": []
   },
   {
+    "name": "tikz-triminos",
+    "depend": [
+      "fontawesome5",
+      "latex",
+      "listofitems",
+      "oberdiek",
+      "pgf",
+      "simplekv",
+      "xstring"
+    ],
+    "tl_depend": []
+  },
+  {
     "name": "tikz-truchet",
     "depend": [
       "latex",
@@ -44876,6 +44925,11 @@
   },
   {
     "name": "uni-wtal-lin",
+    "depend": [],
+    "tl_depend": []
+  },
+  {
+    "name": "unibidi-lua",
     "depend": [],
     "tl_depend": []
   },
@@ -47460,11 +47514,13 @@
       "collection-fontsrecommended",
       "csquotes",
       "cyrillic",
+      "doi",
       "enumitem",
       "fancyhdr",
       "float",
       "footmisc",
       "geometry",
+      "href-ul",
       "hypdoc",
       "ifmtarg",
       "imakeidx",
